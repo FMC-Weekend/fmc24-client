@@ -13,7 +13,9 @@ const Competitions = () => {
         <div className='flex min-w-max min-h-max'>
           <Image
             src={require('./../../../public/images/Rectangle51.png')}
-            alt= "Rectangle51"
+            width={420}
+            height={273.77}
+            alt= 'Rectangle51'
           />
         </div>
         <div className='flex pt-4 pl-14 flex-col place-content-start w-auto text-white h-fit justify-center'>
@@ -37,7 +39,9 @@ const Competitions = () => {
         <div className='flex min-w-max min-h-max flex-col'>
           <Image
             src={require('./../../../public/images/Rectangle52.png')}
-            alt= "Rectangle52"
+            width={420}
+            height={273.77}
+            alt= 'Rectangle52'
           />
         </div>
       </div>
@@ -45,7 +49,7 @@ const Competitions = () => {
   </div>
   <div className='frot'>
       <h1 className='flex flex-col justify-center font-thin text-7xl text-white text-center leading-snug'>
-        "In my head is like if I can conquer men,then I can conquer feminity"
+        In my head is like if I can conquer men then I can conquer feminity
       </h1>
   </div>
 </div>
