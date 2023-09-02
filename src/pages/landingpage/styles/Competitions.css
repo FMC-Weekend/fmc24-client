@@ -1,0 +1,31 @@
+h{
+    font: work sans;
+}
+img{
+    width: 420px ;
+    height: 273.77px ;
+    overflow: visible;
+}
+.cont{
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.bak{
+    width: 100%;
+    height: 100%;            
+    position: relative;
+    top: 0;
+    left: 0;
+    opacity: 1; 
+}
+.frot{
+    position: absolute;
+    top:200px;
+    left: 130px;
+    right: 130px;
+    
+}
+h1{
+    letter-spacing: 12px;
+}
