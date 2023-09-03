@@ -18,3 +18,87 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+* { margin: 0; padding: 0 }
+
+/* header {
+  overflow: hidden;
+  height: 100vh;
+  background: url(oatbkg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  align-content: center;
+  z-index: 2;
+} */
+
+.css1 {
+  margin-top: 150px;
+  margin-left: 100px;
+  color: rgb(255, 255, 255);
+  font: 900 35vmin/35vh work sans;
+  font-size: 250px;
+  text-align: left;
+  -webkit-text-stroke: 5px rgb(255, 255, 255);
+}
+
+.css2{
+  color: rgb(255, 255, 255);
+  margin-right: 200px;
+  font: 900 35vmin/35vh work sans;
+  font-size: 250px;
+  text-align: right;
+  -webkit-text-stroke: 5px rgb(255, 255, 255);
+}
+.cssi{
+  position: absolute;
+  top: 450px;
+  left: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.css3 {
+  position: absolute;
+  top: 410px;
+  margin-top: 150px;
+  margin-left: 100px;
+  /* color: rgb(255, 255, 255); */
+  font: 900 35vmin/35vh work sans;
+  font-size: 250px;
+  text-align: left;
+  -webkit-text-stroke: 5px rgb(255, 255, 255);
+  -webkit-text-fill-color: transparent;
+}
+
+.css4{
+  position: absolute;
+  top:850px;
+  /* color: rgb(255, 255, 255); */
+  margin-right: 200px;
+  left: 325px;
+  font: 900 35vmin/35vh work sans;
+  font-size: 250px;
+  text-align: right;
+  -webkit-text-stroke: 5px rgb(255, 255, 255);
+  -webkit-text-fill-color: transparent;
+
+}
+/* .css1{
+  display: flex;
+  justify-content: center;
+
+}
+.css1 h1{
+  mix-blend-mode: overlay;
+}
+.css2{
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 10px rgb(255, 255, 255);
+
+  position: absolute;
+  font-size: 100px;
+  top: 500px;
+  font-family: work sans;
+  font-weight: 600;
+
+} */
