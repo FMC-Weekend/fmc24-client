@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300&family=Work+Sans:wght@300&display=swap');
+.sponsor
+{
+    
+    padding: 0 0 3rem 0;
+  position: relative;
+}
+.sponsor_bx
+{
+    text-align: center;
+    text-align: center;
+     padding: 2.5rem 2rem;
+
+}
+.heading
+{
+    font-size: 3rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    top: 61px;
+    font-style: normal;
+    line-height: normal;
+
+}
+.slider{
+   
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    gap:6.56rem ;
+    
+}
+  
+.item img {
+   
+  width: 9rem;
+  height: 9rem;
+  margin: 0 auto 1.1rem auto;
+  margin-top: 7%;
+  border-radius: 14px;
+  box-shadow: 0px 0px 6px 10px rgba(0, 0, 0, 0.15);
+
+
+
+  }
+ 

@@ -83,22 +83,7 @@ body {
   -webkit-text-fill-color: transparent;
 
 }
-/* .css1{
-  display: flex;
-  justify-content: center;
-
-}
-.css1 h1{
-  mix-blend-mode: overlay;
-}
-.css2{
-  color: rgb(255, 255, 255);
-  -webkit-text-stroke: 10px rgb(255, 255, 255);
-
-  position: absolute;
-  font-size: 100px;
-  top: 500px;
-  font-family: work sans;
-  font-weight: 600;
-
-} */
+.react-multiple-carousel__arrow
+  {
+    display: none;
+  }
