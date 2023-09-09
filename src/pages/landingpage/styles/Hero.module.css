@@ -1,4 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cherry+Swash:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cedarville+Cursive&family=Cherry+Swash:wght@400;700&family=Poppins:wght@100&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* @font-face {
+  font-family: 'Magica'; 
+  src: url('Magica.otf') format('otf'); 
+  font-weight: normal;
+  font-style: normal;
+} */
+
+.magicafont {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 72px;
+}
+
+
+
 
 .hero_text {
   color: #fff;
@@ -28,6 +43,10 @@
     margin-top: 0px;
     padding-top: 75px;
   } */
+
+  .magicafont {
+    font-size: 24px;
+  }
 
   .videoContainer {
     position: relative;
