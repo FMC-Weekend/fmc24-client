@@ -25,7 +25,6 @@
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.0",
-    "react-google-login": "^5.2.2",
     "react-multi-carousel": "^2.8.4",
     "react-scroll-trigger": "^0.6.14",
     "typescript": "5.2.2"
