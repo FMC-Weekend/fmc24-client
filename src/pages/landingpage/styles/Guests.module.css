@@ -1,17 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300&family=Work+Sans:wght@300&display=swap");
 
 .sponsor {
-  padding: 0 0 3rem 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
   position: relative;
 }
 
 .sponsor_bx {
   text-align: center;
-  text-align: center;
-  padding: 2.5rem 2rem;
-  width: 100vw;
-  padding-right: 75px;
+  width: 100%; 
 }
+
 
 .heading {
   font-size: 3rem;

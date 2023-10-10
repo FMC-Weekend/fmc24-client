@@ -45,8 +45,8 @@ const cardStyle = {
   background: "radial-gradient(circle, #ffffff, #dea4f6, #af61cd, #4d275c)",
   borderRadius: "42px",
   boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
-  margin: "35px",
-  border: "4px solid transparent"
+  border: "4px solid transparent",
+  margin: "0 35px",
 };
 const spanStyle = {
   width: "395.25px", 
@@ -87,11 +87,11 @@ const Guests = ({ imageSrc }) => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
-      items: 5,
+      items: 4,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 1024, min: 681 },
@@ -342,7 +342,7 @@ const Guests = ({ imageSrc }) => {
                   infinite={true}
                   autoPlay={true}
                   autoPlaySpeed={2000}
-                  className="slider"
+                  className="slider mt-[40px]"
                 >
                   <div className={Classes.guest} style={cardStyle}>
                     <Image
