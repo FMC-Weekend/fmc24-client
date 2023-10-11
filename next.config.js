@@ -6,7 +6,12 @@ const nextConfig = {
   },
   publicRuntimeConfig: {
     GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
-    NEXT_PUBLIC_REACT_APP_BACKEND_URI:process.env.NEXT_PUBLIC_REACT_APP_BACKEND_URI
+    NEXT_PUBLIC_REACT_APP_BACKEND_URI:process.env.NEXT_PUBLIC_REACT_APP_BACKEND_URI,
+    MONGODB_URI: process.env.MONGODB_URI,
+    EMAIL1: process.env.EMAIL1,
+    PASS1: process.env.PASS1,
+    SLACK_TOKEN: process.env.SLACK_TOKEN,
+    
   },
 };
 

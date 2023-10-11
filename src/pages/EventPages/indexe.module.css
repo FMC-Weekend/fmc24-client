@@ -15,7 +15,7 @@
 }
 
 .CardPh{
-  width: 380px;
+  width: 40%; min-width:360px;
   height: 440px;
   justify-content: center;
   margin-top: 24px;
@@ -29,7 +29,7 @@
   border: 1px solid rgba(255, 255, 255, 1);
 }
 .CardOu{
-  width: 380px;
+  width: 40%; min-width:360px;
   height: 440px;
   justify-content: center;
   margin-top: 24px;
@@ -43,7 +43,7 @@
   border: 1px solid rgba(255, 255, 255, 1);
 }
 .CardMe{
-  width: 380px;
+  width: 40%; min-width:360px;
   height: 440px;
   justify-content: center;
   margin-top: 24px;
@@ -57,7 +57,7 @@
   border: 1px solid rgba(255, 255, 255, 1);
 }
 .CardDe{
-  width: 380px;
+  width: 40%; min-width:360px;
   height: 440px;
   justify-content: center;
   margin-top: 24px;
@@ -71,7 +71,7 @@
   border: 1px solid rgba(255, 255, 255, 1);
 }
 .CardCi{
-  width: 380px;
+  width: 40%; min-width:360px;
   height: 440px;
   justify-content: center;
   margin-top: 24px;
@@ -85,7 +85,7 @@
   border: 1px solid rgba(255, 255, 255, 1);
 }
 .CardAn{
-  width: 380px;
+  width: 40%; min-width:360px;
   height: 440px;
   justify-content: center;
   margin-top: 24px;
@@ -164,7 +164,7 @@
 }
 
 .Ghost{
-  width: 380px;
+  width: 40%; min-width:360px;
   height: 440px;
   justify-content: center;
   margin-top: 24px;
@@ -173,27 +173,27 @@
 
 @media only screen and (max-width:420px){
   .CardPh{
-    width: 330px;
+    width: 330px; min-width:none;
     height: 500px;
   }
   .CardOu{
-    width: 330px;
+    width: 330px; min-width:none;
     height: 500px;
   }
   .CardMe{
-    width: 330px;
+    width: 330px; min-width:none;
     height: 500px;
   }
   .CardDe{
-    width: 330px;
+    width: 330px; min-width:none;
     height: 500px;
   }
   .CardCi{
-    width: 330px;
+    width: 330px; min-width:none;
     height: 500px;
   }
   .CardAn{
-    width: 330px;
+    width: 330px; min-width:none;
     height: 500px;
   }
   .MajorBod{

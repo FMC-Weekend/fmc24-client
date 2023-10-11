@@ -6,9 +6,11 @@ import type { AppProps } from "next/app";
 import '@/styles/customfont.css';
 import Head from 'next/head'
 
-
+import { useEffect } from "react";
 export default function App({ Component, pageProps }: AppProps) {
+
   return (
+   
     <>
     <Head>
     <title>FMC Weekend</title>

@@ -17,6 +17,28 @@ const events = () => {
             <div>
     <div className="mt-[80px]"><h1 hidden>Hello</h1></div>
       <div className={Classes.MainArea}>
+        <div className={Classes.TopBarMobile}>
+        <div className={Classes.BarIn}>
+             <div className="w-[275px]  h-[125px] flex justify-center items-center"> 
+             <Link href="../EventPages/Photography" className="text-[20px] ">Photography</Link>
+             </div>
+             <div className="w-[275px]  h-[125px] flex justify-center items-center">
+             <Link href="../EventPages/Design" className="text-[20px] ">Design</Link>
+             </div>
+             <div className="w-[275px]  h-[125px] flex justify-center items-center">
+             <Link href="../EventPages/Animation" className="text-[20px] ">Animation</Link>
+             </div>
+             <div className="w-[275px]  h-[125px] flex justify-center items-center">
+             <Link href="../EventPages/Cinematography" className="text-[20px] ">Cinematography</Link>
+             </div>
+             <div className="w-[275px]  h-[125px] flex justify-center items-center">
+             <Link href="../EventPages/Media" className="text-[20px] ">Media</Link>
+             </div>
+             <div className="w-[275px]  h-[125px] flex justify-center items-center">
+             <Link href="../EventPages/Outreach" className="text-[20px] ">Outreach</Link> 
+             </div>
+           </div>
+        </div>
         <div className={Classes.TopBar}>
            <div className={Classes.BarIn}>
              <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-blue"> 
@@ -104,6 +126,7 @@ const events = () => {
         </div>
       </div>
     </div>
+    <div className={Classes.Ghost}></div>
   </div>
 </div>
     

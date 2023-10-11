@@ -8,7 +8,13 @@
   flex-wrap: nowrap;
 }
 
-
+.TopBarMobile{
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font: 24px;
+}
 
 .FullPage{
   display: flex;
@@ -16,7 +22,7 @@
 }
 
 .Card{
-  width: 380px;
+  width: 40%;
   height: 440px;
   justify-content: center;
   margin-top: 24px;
@@ -86,6 +92,13 @@
     width: 100%;
   }
 }
+.Ghost{
+  width: 40%;
+  height: 440px;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 
 @media only screen and (max-width:768px){
   .MainArea{
@@ -108,6 +121,14 @@
     align-items: center;
   }
   .TopBar{
+    margin: 0;
+    display:none;
+  }
+  .Ghost{
+    display: none;
+  }
+  .TopBarMobile{
+    display: flex;
     margin: 0;
   }
 }

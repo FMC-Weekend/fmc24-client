@@ -39,7 +39,7 @@ const LogIn = () => {
             setClicked(true);
             console.log(credentialResponse.credential);
             sessionStorage.setItem('token',credentialResponse.credential);
-            const response = await axios.post(backendURL + "/api/google-login", {
+            const response = await axios.post("/api/login", {
                 token: credentialResponse.credential,
                 audience: clientId,
             });

@@ -18,7 +18,7 @@ const Photography = () => {
         <div>
 <div className="mt-[80px]"><h1 hidden>Hello</h1></div>
 <div className={Classes.showMobile}>
-    <div className="w-[300px]  h-[125px] flex justify-center items-center glow-effect-blue"> 
+    <div className="w-[300px]  h-[125px] flex justify-center items-center"> 
         <Link href="../events"><button className={Classes.backButton}>Back</button></Link>
          </div>
 </div>
@@ -62,17 +62,17 @@ const Photography = () => {
 </div>
 
 <div className={Classes.CardPh}>
-  <div class="flex flex-col text-center justify-center align-middle s py-4">
-  <div class=" flex flex-rows h-[40px] justify-center font-bold text-[24px] max-md:text-[23px] mb-2 my-3.5"><div><Image className="icon" src={"/icon_photo.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">Portfolio in 24 Hours</div></div>
-    <p class="text-justify my-3.5 h-[180px]">
-    We click a number of pictures and put them in the gallery, but Portfolio in 24 hrs of FMC Weekend brings you a chance to show your skills on Indias largest digital art festival. 
-    </p>
-    <a href="https://drive.google.com/file/d/1BhtGMD-lpnIZAv-8f1CIjZhPV2PDiS-B/view?usp=drive_link" className="text-white-800 my-3.5 italic hover:underline">View Problem Statement</a>
-    <div className="my-3.5 align-middle justify-evenly">
-        <button className="border p-2 border-white rounded-[15px] hover:text-[15px] hover:font-semibold transition-all duration-5000 ease-in-out ">REGISTRATION WILL BE LIVE SOON</button>
+      <div class="flex flex-col text-center justify-center align-middle px-6 py-4">
+      <div class=" flex flex-rows h-[40px] justify-center font-bold text-[24px] max-md:text-[23px] mb-2 my-3.5"><div><Image className="icon" src={"/icon_photo.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">Portfolio in 24 Hours</div></div>
+        <p class="text-justify my-3.5 h-[180px]">
+        We click a number of pictures and put them in the gallery, but Portfolio in 24 hrs of FMC Weekend brings you a chance to show your skills on Indias largest digital art festival. 
+        </p>
+        <a href="https://drive.google.com/file/d/1BhtGMD-lpnIZAv-8f1CIjZhPV2PDiS-B/view?usp=drive_link" className="text-white-800 my-3.5 italic hover:underline">View Problem Statement</a>
+        <div className="my-3.5 align-middle justify-evenly">
+            <button className="border p-2 border-white rounded-[15px] hover:text-[15px] hover:font-semibold transition-all duration-5000 ease-in-out ">REGISTRATION WILL BE LIVE SOON</button>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
 <div className={Classes.CardPh}>
   <div class="flex flex-col text-center justify-center align-middle px-6 py-4">

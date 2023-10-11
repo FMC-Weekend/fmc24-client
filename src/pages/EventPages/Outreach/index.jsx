@@ -18,7 +18,7 @@ const Outreach = () => {
             <div>
             <div className="mt-[80px]"><h1 hidden>Hello</h1></div>
 <div className={Classes.showMobile}>
-    <div className="w-[300px]  h-[125px] flex justify-center items-center glow-effect-blue"> 
+    <div className="w-[300px]  h-[125px] flex justify-center items-center "> 
         <Link href="../events"><button className={Classes.backButton}>Back</button></Link>
          </div>
       </div>

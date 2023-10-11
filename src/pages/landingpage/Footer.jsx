@@ -16,7 +16,7 @@ const Footer = () => {
 
   const backendURL = publicRuntimeConfig.NEXT_PUBLIC_REACT_APP_BACKEND_URI;
   const contactUs = () => {
-    axios.post(backendURL + "/api/contact-us");
+    axios.post("/api/contact-us");
     alert("Thank you for contacting us. We will get back to you soon.")
   }
   useEffect(() => {
@@ -57,7 +57,7 @@ const Footer = () => {
       "email": email,
       "message": message
     });
-    axios.post(backendURL + "/api/contact-us", {
+    axios.post("/api/send-mail", {
       "name": name,
       "email": email,
       "message": message
