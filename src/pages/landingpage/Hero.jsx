@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Classes from "./styles/Hero.module.css";
+
 // import "@/styles/globals.css";
 // import '@/styles/customfont.css';
 import Design from "./hoverDesign/design";
@@ -31,10 +32,10 @@ const aboutusdiv = {
   paddingBottom: "100px",
 };
 const aboutusdivm = {
-  marginTop: "-175px",
+  marginTop: "20px",
   paddingBottom: "100px",
 };
-const VideoWithText = () => {
+  const VideoWithText = () => {
   const [isMobile, setIsMobile] = useState("/herodesktop.mp4");
 
   useEffect(() => {
@@ -50,61 +51,91 @@ const VideoWithText = () => {
   }, []);
   return (
     <>
-      {/* {isMobile ? ( */}
-        <>
-          <div className={Classes.videoContainer}>
-            <video autoPlay={true} loop={true} controls={false} muted className={Classes.video} key={isMobile}>
-              <source src={isMobile} type="video/mp4" />
-            </video>
-          </div>
-          <div style={aboutusdivm}>
-            <Marquee gradient={false} speed={50} direction="right">
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-            </Marquee>
-          </div>
-        </>
-      {/* ) : ( */}
-        {/* <>
-          <div className={Classes.videoContainer}>
-            <video autoPlay loop muted className={Classes.video}>
-              <source src={isMobile} type="video/mp4" />
-            </video>
-          </div>
-          <div style={aboutusdiv}>
-            <Marquee gradient={false} speed={50} direction="right">
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-              <div style={filledTextStyle}>ABOUT US</div>
-              <div style={strokeTextStyle}>ABOUT US</div>
-            </Marquee>
-          </div>
-        </>
-      )} */}
-    </>
+    {/* {isMobile ? ( */}
+    <>
+    {/* <div className={Classes.videoContainer}>
+      <video autoPlay={true} loop={true} controls={false} muted className={Classes.video} key={isMobile}>
+        <source src={isMobile} type="video/mp4" />
+      </video>
+    </div> */}
+
+    
+    
+
+
+    <div style={aboutusdivm}>
+      <Marquee gradient={false} speed={50} direction="right">
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+      </Marquee>
+    </div>
+  </>
+{/* ) : ( */}
+  {/* <>
+    <div className={Classes.videoContainer}>
+      <video autoPlay loop muted className={Classes.video}>
+        <source src={isMobile} type="video/mp4" />
+      </video>
+    </div>
+    <div style={aboutusdiv}>
+      <Marquee gradient={false} speed={50} direction="right">
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+        <div style={filledTextStyle}>ABOUT US</div>
+        <div style={strokeTextStyle}>ABOUT US</div>
+      </Marquee>
+    </div>
+  </>
+)} */}
+</>
+
+    
   );
 };
+
+
+
+
+
+
+
 const Hero = () => {
   return (
     <>
-      <div className={Classes.hero_text}>
+      {/* <div className={Classes.hero_text}> */}
         {/* <Header/> */}
-        <VideoWithText />
-      </div>
+        {/* <VideoWithText />
+      </div> */}
+          <div className={Classes.outermaind}>
+     <div className={Classes.innerdiv1}>
+     <img src="/FMCswa-02 (1) 1.png" height={200} width={480}/>
+     <div className={Classes.content}>
+     <p>India's Largest Digital Art Fest</p>
+     <h1>FMC Weekend</h1>
+     <button className="border-solid border-2 mt-20 text-white rounded-3xl h-10 w-44 text-xl transition duration-300 transform  hover:shadow-xl hover:text-blue-950 bg-transparent hover:bg-white">Register Now</button>
+     </div>
+     
+     </div>
+     <div className={Classes.innerdiv2}>
+      <img src="/heroimage2.png" width={820}/>
+     </div>
+    
+     </div>
+     <VideoWithText />
     </>
   );
 };
