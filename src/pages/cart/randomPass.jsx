@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import randomPassData from "./randompass_data.json";
+import Classes from "./indexe.module.css"
 import jsonData from "./events_data.json";
 function YourComponent() {
   const [option, setOption] = useState(""); // State for selected option
@@ -47,9 +48,9 @@ function YourComponent() {
   };
 
   return (
-    <div>
+    <div className={Classes.SelectOption}>
+      <div className={Classes.OptionSelect}>
       <h2>Select an option:</h2>
-      <div>
         <label>
           6 Random Pass
           <input
@@ -75,7 +76,7 @@ function YourComponent() {
           {jsonData.map((option) => (
             <div
               key={option.id}
-              className="mt-4 mb-4 pt-4 pb-4 pl-2 pr-2 border-2 w-[60vw] border-light-50 border-radiu"
+              className={Classes.PassesCard}
             >
               <div className="inline-flex items-center ">
                 <label
@@ -138,7 +139,7 @@ function YourComponent() {
           {jsonData.map((option) => (
             <div
               key={option.id}
-              className="mt-4 mb-4 pt-4 pb-4 pl-2 pr-2 border-2 w-[60vw] border-light-50 border-radiu"
+              className={Classes.PassesCard}
             >
               <div className="inline-flex items-center ">
                 <label
@@ -197,7 +198,7 @@ function YourComponent() {
         </div>
       )}
 
-      <p>Selected Events: {selectedEvents.join(", ")}</p>
+      <p className={Classes.SelectedEvents}>Selected Events: {selectedEvents.join(", ")}</p>
     </div>
   );
 }

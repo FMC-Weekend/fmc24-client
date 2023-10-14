@@ -117,8 +117,6 @@ const LogIn = () => {
                                             className={Classes.gButton}
                                         >
 
-                                            {/* <BeatLoader size={15} color={'#123abc'} loading={true} /> */}
-                                            {/*Loader action on onclick */}
 
                                             <GoogleLogin
                                                 onSuccess={handleLogin}

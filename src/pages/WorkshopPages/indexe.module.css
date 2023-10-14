@@ -1,0 +1,417 @@
+.glow-effect:hover{
+  box-shadow: 0 0 70px rgb(255,0,0,10000), 0 0 40px rgb(255,0,0,1000), 0 0 40px rgb(255,0,0,1000), 0 0 40px rgb(255,0,0,1000);
+}
+
+.MainArea{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+.FullPage{
+display: flex;
+flex-direction: column;
+}
+
+.CardPh{
+width: 40%; min-width:360px;
+height: 440px;
+justify-content: center;
+margin-top: 24px;
+margin-bottom: 24px;
+color:  white;
+background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+border-radius: 25px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.5px);
+-webkit-backdrop-filter: blur(1.9px);
+border: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+
+
+.glow-effect:hover{
+  box-shadow: 0 0 70px rgb(255,0,0,10000), 0 0 40px rgb(255,0,0,1000), 0 0 40px rgb(255,0,0,1000), 0 0 40px rgb(255,0,0,1000);
+}
+
+.MainArea{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+
+.TopBarMobile{
+display: none;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+font: 24px;
+}
+
+.FullPage{
+display: flex;
+flex-direction: column;
+}
+
+.CardPh{
+  width: 387px;
+  height: 690px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color:  white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.9px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .CardAn{
+    width: 387px;
+    height: 670px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:  white;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.9px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    }
+  
+    .CardCi{
+      width: 387px;
+      height: 670px;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      color:  white;
+      background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+      border-radius: 25px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(1.5px);
+      -webkit-backdrop-filter: blur(1.9px);
+      border: 1px solid rgba(255, 255, 255, 1);
+      }
+  
+      .CardDe{
+        width: 387px;
+        height: 670px;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color:  white;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+        border-radius: 25px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(1.5px);
+        -webkit-backdrop-filter: blur(1.9px);
+        border: 1px solid rgba(255, 255, 255, 1);
+        }
+  
+        .CardOu{
+          width: 387px;
+          height: 670px;
+          justify-content: center;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          color:  white;
+          background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+          border-radius: 25px;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+          backdrop-filter: blur(1.5px);
+          -webkit-backdrop-filter: blur(1.9px);
+          border: 1px solid rgba(255, 255, 255, 1);
+          }
+  
+          .CardMe{
+            width: 387px;
+            height: 670px;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color:  white;
+            background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+            border-radius: 25px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(1.5px);
+            -webkit-backdrop-filter: blur(1.9px);
+            border: 1px solid rgba(255, 255, 255, 1);
+            }
+
+.MajorBod{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-evenly ;
+align-items: center;
+margin-right: 50px;
+margin-left: 50px;
+font-size: 14px;
+}
+
+.Card:hover{
+box-shadow: 0px 0px 40px 0px #2FC9FF;
+}
+
+.TopBar{
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+font: 24px;
+}
+
+.CardPh:hover{
+  box-shadow: 0px 0px 40px 0px #2FC9FF;
+}
+.CardOu:hover{
+  box-shadow: 0px 0px 40px 0px #9B1DCD;
+}
+.CardMe:hover{
+  box-shadow: 0px 0px 40px 0px #FF7B00;
+}
+.CardDe:hover{
+  box-shadow: 0px 0px 40px 0px #0CFF8E;
+}
+.CardCi:hover{
+  box-shadow: 0px 0px 40px 0px #FFEE2D;
+}
+.CardAn:hover{
+  box-shadow: 0px 0px 40px 0px #FF435A;
+}
+
+
+.BarIn{
+color:  white;
+background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.5px);
+-webkit-backdrop-filter: blur(1.5px);
+border: 1px solid rgba(255, 255, 255, 1);
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: start;
+}
+
+@media only screen and (max-width:768px) {
+.MajorBod{
+  flex-direction: column;
+  padding: 20px;}
+}
+
+@media only screen and (max-width:420px){
+.Card{
+  width: 330px;
+  height: 500px;
+
+}
+.MajorBod{
+  padding: 1px;
+}
+.TopBar{
+  margin: 0;
+  width: 100%;
+}
+}
+.Ghost{
+width: 40%;
+height: 440px;
+justify-content: center;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+@media only screen and (max-width:768px){
+.MainArea{
+  flex-direction: column;
+}
+.MajorBod{
+  margin: 0;
+  display: none;
+}
+.Hide{
+  display: none;
+}
+.BarIn{
+  flex-direction: column;
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+}
+.TopBar{
+  margin: 0;
+  display:none;
+}
+.Ghost{
+  display: none;
+}
+.TopBarMobile{
+  display: flex;
+  margin: 0;
+}
+}
+
+
+
+
+.CardPh:hover{
+box-shadow: 0px 0px 40px 0px #2FC9FF;
+}
+.CardOu:hover{
+box-shadow: 0px 0px 40px 0px #9B1DCD;
+}
+.CardMe:hover{
+box-shadow: 0px 0px 40px 0px #FF7B00;
+}
+.CardDe:hover{
+box-shadow: 0px 0px 40px 0px #0CFF8E;
+}
+.CardCi:hover{
+box-shadow: 0px 0px 40px 0px #FFEE2D;
+}
+.CardAn:hover{
+box-shadow: 0px 0px 40px 0px #FF435A;
+}
+
+.MajorBod{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-evenly ;
+align-items: center;
+margin-right: 50px;
+margin-left: 50px;
+font-size: 14px;
+}
+
+
+.TopBar{
+display: flex;
+flex-direction: column;
+justify-content: start;
+align-items: center;
+font: 24px;
+}
+
+.BarIn{
+color:  white;
+background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.5px);
+-webkit-backdrop-filter: blur(1.5px);
+border: 1px solid rgba(255, 255, 255, 1);
+display: flex;
+flex-direction: column;
+height: 100%;
+justify-content: start;
+}
+
+
+@media only screen and (max-width:768px) {
+.MajorBod{
+  flex-direction: column;
+  padding:0px;
+  margin:0 auto;
+}
+.MainArea{
+  margin: 10px;
+}
+}
+
+.Ghost{
+width: 40%; min-width:360px;
+height: 440px;
+justify-content: center;
+margin-top: 24px;
+margin-bottom: 24px;
+}
+
+@media only screen and (max-width:420px){
+.CardPh{
+  width: 330px; min-width:none;
+  height: 500px;
+}
+.CardOu{
+  width: 330px; min-width:none;
+  height: 500px;
+}
+.CardMe{
+  width: 330px; min-width:none;
+  height: 500px;
+}
+.CardDe{
+  width: 330px; min-width:none;
+  height: 500px;
+}
+.CardCi{
+  width: 330px; min-width:none;
+  height: 500px;
+}
+.CardAn{
+  width: 330px; min-width:none;
+  height: 500px;
+}
+.MajorBod{
+  padding: 1px;
+}
+.TopBar{
+  margin: 0;
+  width: 100%;
+}
+
+
+}
+
+.backButton{
+color:  white;
+background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.5px);
+-webkit-backdrop-filter: blur(1.5px);
+border: 1px solid rgba(255, 255, 255, 1);
+width: 250px;
+height: 75px;
+border-radius: 25px;
+font-size: 20px;
+}
+
+
+.showMobile{
+display: none;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font: 18px;
+margin: 20px;
+}
+
+@media only screen and (max-width:768px){
+.BarIn{
+  flex-direction: column;
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+.TopBar{
+  margin: 0;
+  display: none;
+}
+.showMobile{
+  display: flex;
+}
+.Ghost{
+  display: none;
+}
+}

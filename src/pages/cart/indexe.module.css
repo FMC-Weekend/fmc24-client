@@ -3,16 +3,49 @@
   }
 
 .MainArea{
+  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-
+.Hide{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  min-height: 100vh;
+}
 
 .FullPage{
   display: flex;
   flex-direction: column;
+}
+
+.PassesCard{
+  width: 100%;
+  margin: 1rem 0rem;
+  padding : 1rem 0.5rem;
+  color:  white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+  /* border-radius: 25px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.9px);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.divCards{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  padding-left: 2rem;
+  padding-top:0.125rem;
+  width: 67.5%;
+}
+
+.CardDisplay{
+  width: 100%;
+  margin-right: 80px;
 }
 
 .Card{
@@ -46,13 +79,31 @@
 }
 
 .TopBar{
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   font: 24px;
   margin-top: 75px;
-  height: 100vh;
+  height:100%;
+}
+
+.SelectedEvents{
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color:  white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0px;
 }
 
 .BarIn{
@@ -66,29 +117,108 @@
   flex-direction: column;
   height: 100%;
   justify-content: start;
+  width: 100%;
 }
 
+.checkout{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top:80px;
+  right: 0;
+  width: 20%;
+  height: fit-content;
+  /* min-height: 100vh; */
+  color:  white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  justify-content: start;
+}
 
 
 @media only screen and (max-width:768px) {
   .MajorBod{
-    flex-direction: column;
-    padding: 20px;}
+    flex-direction: column;}
+    .divCards{
+      width: 95%;
+      padding: 0;
+      margin-top: 75px;
+      margin-left: 10px;
+    }
+    .MainArea{
+      width: 100%;
+    }
+}
+
+.showOnMobile{
+  display: none;
+}
+
+.SelectOption{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.OptionSelect{
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color:  white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255,255,255,0.1));
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border: 1px solid rgba(255, 255, 255, 1);
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.RandomSelect{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.OptionSelect>*{
+  margin: 5px 0px;
+}
+
+.SelectOption>*{
+  margin: 5px 0px;
 }
 
 @media only screen and (max-width:420px){
-  .Card{
-    width: 330px;
-    height: 500px;
-
-  }
   .MajorBod{
     padding: 1px;
   }
-  .TopBar{
-    margin: 0;
-    width: 100%;
-  }
+}
+
+.TotalPrice{
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.CheckOutBtnStyle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 25px;
+  border: 1px solid white ;
+
 }
 
 @media only screen and (max-width:768px){
@@ -100,6 +230,10 @@
     display: none;
   }
   .Hide{
+    /* display: none; */
+    width: 100%;
+    margin-top: 75px;
+    min-height: none;
     display: none;
   }
   .BarIn{
@@ -113,6 +247,19 @@
   }
   .TopBar{
     margin: 0;
+    height: fit-content;
+  }
+  .checkout{
+    /* display: none; */
+    width: 100%;
+    height: fit-content;
+    position: inherit;
+    margin-top: 50px;
+
+  }
+  .showOnMobile{
+    display: flex;
+    margin-top: 80px;
   }
 }
 

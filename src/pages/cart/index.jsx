@@ -11,6 +11,7 @@ import Classes from "./indexe.module.css";
 import RandomPass from "./randomPass";
 import Router from "next/router";
 import getConfig from 'next/config';
+import { type } from "os";
 const textStyleBold = {
   backdropFilter: "blur(9px) saturate(100%)",
   WebkitBackdropFilter: "blur(9px) saturate(100%)",
@@ -39,15 +40,19 @@ const Index = () => {
   const backendURL = publicRuntimeConfig.NEXT_PUBLIC_REACT_APP_BACKEND_URI;
   // const [jsonData, setJsonData] = useState([]);
   const [selectedItems, setSelectedItems] = useState([]);
+  let updatedSelectedItems=[];
 
   useEffect(() => {
     const storedItems = sessionStorage.getItem("cartItems");
     console.log("storedItems", storedItems)
     const initialItems = storedItems ? JSON.parse(storedItems) : [];
     setSelectedItems(initialItems);
+    console.log(initialItems);
   }, []);
 
-
+  // useEffect(()=>{
+  //   setSelectedItems(updatedSelectedItems);
+  // },updatedSelectedItems);
   const [selectedOption, setSelectedOption] = useState("");
   const [open, setOpen] = React.useState(false);
   useEffect(() => {
@@ -60,9 +65,15 @@ const Index = () => {
       Router.push('/login');
     }
   }, [])
+  let globalItems=[];
+  useEffect(()=>{
+    console.log("globalItems : ",globalItems)
+  },[]);
   const addToCart = async (userId, cartItem) => {
     console.log("action to be added to cart")
 
+    console.log("userId : ",userId);
+    console.log("cartItem : ",cartItem);
     const response = await fetch(backendURL + "/api/cart", {
       method: "POST",
       headers: {
@@ -74,7 +85,7 @@ const Index = () => {
       }),
     });
     const data = await response.json();
-    console.log(data);
+    console.log("data : ",data);
     if (data.status === "success") {
       console.log("Items added to cart");
     } else {
@@ -105,18 +116,27 @@ const Index = () => {
   const handleCheckboxChange = (itemId, item) => {
     const user = sessionStorage.getItem('userData');
     const userInfo = JSON.parse(user);
-    // console.log(userInfo.user._id);
-    const userId = userInfo.user.userID._id;
+    console.log(userInfo);
+    const userId = userInfo.user._id;
+    console.log(userInfo.user._id);
     // Toggle selected state for the clicked item
     const updatedSelectedItems = [...selectedItems];
+    globalItems=updatedSelectedItems;
     console.log("item selected");
+    // const index = selectedItems.indexOf(itemId);
     const index = updatedSelectedItems.indexOf(itemId);
 
     if (index !== -1) {
       updatedSelectedItems.splice(index, 1);
+      globalItems=updatedSelectedItems;
+      // setSelectedItems(selectedItems.splice(index,1));
       deleteFromCart(userId, itemId);
+      console.log(selectedItems);
     } else {
       updatedSelectedItems.push(itemId);
+      globalItems=updatedSelectedItems;
+      console.log(selectedItems);
+      // setSelectedItems(selectedItems.concat([itemId]));
       console.log(item)
       addToCart(userId, item);
     }
@@ -147,10 +167,11 @@ const Index = () => {
 
   return (
     <div
-      style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
+      className={Classes.FullPage}
     >
       <Header />
-      <div className="flex">
+      <div className={Classes.MainArea}>
+        <div className={Classes.Hide}>
         <div className={Classes.TopBar}>
           <div className={Classes.BarIn}>
             <div className="w-[275px]  h-[125px] flex justify-center items-center">
@@ -183,20 +204,53 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row  mt-20 pl-4 pt-1">
-          <div className="w-108 mr-96">
+        </div>
+        <div className={Classes.showOnMobile}>
+        <div className={Classes.BarIn}>
+            <div className="w-[275px]  h-[125px] flex justify-center items-center">
+              Select your pass below
+            </div>
+            <div className="w-[275px]  h-[125px] flex justify-center items-center">
+              <button
+                className="text-[20px] hover:text-[25px] hover:font-semibold transition-all duration-5000 ease-in-out"
+                onClick={() => handleOptionSelect("A")}
+              >
+                Event Pass
+              </button>
+            </div>
+
+            <div className="w-[275px]  h-[125px] flex justify-center items-center">
+              <button
+                className="text-[20px] hover:text-[25px] hover:font-semibold transition-all duration-5000 ease-in-out"
+                onClick={() => handleOptionSelect("B")}
+              >
+                Combo Pass
+              </button>
+            </div>
+            <div className="w-[275px]  h-[125px] flex justify-center items-center">
+              <button
+                className="text-[20px] hover:text-[25px] hover:font-semibold transition-all duration-5000 ease-in-out"
+                onClick={() => handleOptionSelect("C")}
+              >
+                Random Pass
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className={Classes.divCards}>
+          <div className={Classes.CardDisplay}>
             <div>
               {selectedOption === "A" && (
                 <div>
                   {jsonData.map((item, index) => (
                     <div
                       key={index}
-                      className="mt-4 mb-4 pt-4 pb-4 pl-2 pr-2 border-2 w-[60vw] border-light-50 border-radiu"
+                      className={Classes.PassesCard}
                     >
                       <div className="inline-flex items-center ">
                         <label
                           className="relative flex cursor-pointer items-center rounded-full p-3"
-                          for="login"
+                          htmlFor="login"
                           data-ripple-dark="true"
                         >
                           <input
@@ -225,7 +279,7 @@ const Index = () => {
                         </label>
                         <label
                           className="mt-px cursor-pointer flex flex-row select-none font-light text-white"
-                          for="login"
+                          htmlFor="login"
                         >
                           <div className="title mr-4 ml-2">{item.Title}</div>
                           <div className="title mr-4">{item.genre}</div>
@@ -254,12 +308,12 @@ const Index = () => {
                   {comboData.map((item, index) => (
                     <div
                       key={index}
-                      className="mt-4 mb-4 pt-4 pb-4 pl-2 pr-2 border-2 w-[60vw] border-light-50 border-radiu"
+                      className={Classes.PassesCard}
                     >
                       <div className="inline-flex items-center ">
                         <label
                           className="relative flex cursor-pointer items-center rounded-full p-3"
-                          for="login"
+                          htmlFor="login"
                           data-ripple-dark="true"
                         >
                           <input
@@ -288,7 +342,7 @@ const Index = () => {
                         </label>
                         <label
                           className="mt-px cursor-pointer flex flex-row select-none font-light text-white"
-                          for="login"
+                          htmlFor="login"
                         >
                           <div className="title mr-4 ml-2">{item.Title}</div>
                           <div className="title mr-4">Rs. {item.price}</div>
@@ -313,18 +367,17 @@ const Index = () => {
               {selectedOption === "C" && <RandomPass />}
             </div>
           </div>
-
-          <div className="absolute right-0 bg-emerald-900 w-48 h-[180%]">
-            <h2>Total Price:</h2>
-            <p>Total Price: Rs.{sumOfSelectedItems}</p>
-            <ul>
+        </div>
+          <div className={Classes.checkout}>
+            <p className={Classes.TotalPrice}>Total Price: Rs.{sumOfSelectedItems}</p>
+            <ul className="flex flex-col justify-center align-middle">
               {selectedItems.map((itemId) => (
                 <li key={itemId}>
                   {combinedData.find((item) => item.id === itemId)?.Title}
                 </li>
               ))}
             </ul>
-            <button style={checkoutBtnStyle}>
+            <button className={Classes.CheckOutBtnStyle}>
               <Link
                 href="/checkout"
                 style={{ color: "white", textDecoration: "none" }}
@@ -333,7 +386,6 @@ const Index = () => {
               </Link>
             </button>
           </div>
-        </div>
 
         <br />
       </div>

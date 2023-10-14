@@ -1,0 +1,112 @@
+[
+    {
+      "id": 5000,
+      "Title": "Wildlife Photography",
+      "genre": "Photography",
+      "guest": "Subhash Nair",
+      "description": "Subhash Nair, a renowned wildlife photographer and avid traveler, captures the beauty of the natural world. He's a brand ambassador for Nikon India, framing breathtaking moments.",
+      "type": "online",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+    },
+    {
+      "id": 5001,
+      "Title": "Travel & Lifestyle Photography",
+      "genre": "Photography",
+      "guest": "Bhalovashi",
+      "description": "She's involved in filmmaking, product promotions, drone photography, and creative direction. Her work spans across various landscapes capturing emotions and unique perspectives.",
+      "type": "online",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1DsleK6oNGsqYIe1MoyPk50L8QHIDZ-2A/edit"
+    },
+    {
+      "id": 5002,
+      "Title": "Instameet & Adobe Lightroom",
+      "genre": "Photography",
+      "guest": "Satyam Bhuyan",
+      "description": "Satyam Bhuyan, a gifted photographer with an engineering and MBA background, creates visual masterpieces. As a Nikon India and Lightroom Ambassador, he elevates travel photography and NFT artistry to new heights.",
+      "type": "online",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/103OMjJI1eIqRvpRo6qdjiN5RLEa1h0AY/edit"
+    },
+    {
+      "id": 5003,
+      "Title": "Product Design",
+      "genre": "Design",
+      "guest": "Vimal Krishnattri",
+      "description": "Vimal Krishnattri is a skilled graphic designer and illustrator. He showcases AI-generated artwork and adept photoshopping on his Instagram account “artloverjv”.",
+      "type": "hybrid",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1ameBkhRHltEwDVzqx_-vgFHQeRUYVtox/edit"
+    },
+    {
+      "id": 5004,
+      "Title": "2D-Animation",
+      "genre": "Animation",
+      "guest": "Shubhajeet Dey",
+      "description": "Shubhajeet Dey, a renowned Instagram artist, is the creative force behind Calmchor Cartoons. He's celebrated for his witty comics and animations, showcasing his talent as an illustrator and animator.",
+      "type": "offline",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1dQT-ollFDJt4ZcK_JiTEhWAqDWbKhJ05/edit"
+    },
+    {
+      "id": 5005,
+      "Title": "Panel Discussion",
+      "genre": "Cinematography",
+      "guest": "Sumit Saxena",
+      "description": "Sumit Saxena is known for Doctor G (2022), Hamid (2018), Lust Stories (2018), and Pyaar Ka Punchnama (2011) for his role as dialogue and screenplay writer. His writing has a lot of versatility, with well-known works in genres of Romance, Drama, Comedy, and their combinations.",
+      "type": "online",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1Ok5ZLXcz2HVHTOESVQhu89y3B5uOD88h/edit"
+    },
+    {
+      "id": 5006,
+      "Title": "Panel Discussion",
+      "genre": "Cinematography",
+      "guest": "Abhijeet Singh Parmar",
+      "description": "Abhijeet Singh Parmar is a versatile cinematographer with roles as associate director, creative and executive producer, and screenplay writer in various web series like Panchayat (2020-2022), Rocket Boys (2022), Gullak (2018).",
+      "type": "online",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1N37Ti5pcLWnhqWdg1fE4htoX3ifBch9u/edit"
+    },
+    {
+      "id": 5007,
+      "Title": "Cinematography",
+      "genre": "Cinematography",
+      "guest": "Dhawalika Singh",
+      "description": "Dhawalika Singh is a cinematographer and Director of Photography, who has worked on various Gujarati feature films like Kutch Express (2023) and Dear Father (2022) and Web Series like Aarya (2020) [Aarya is not a Gujarati web series. It's in Hindi, starring Sushmita Sen].",
+      "type": "online",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1fMeOUIcfBTNM4seOTyEnFiyx452ItjYJ/edit"
+    },
+    {
+      "id": 5008,
+      "Title": "Design the Tunes",
+      "genre": "Media",
+      "guest": "Saurabh Shukla",
+      "description": "It's an online design challenge to design the cover page of an English song or an English album. You can also use the elements of the songs or album for the cover. And the prior entries are also allowed. But also submit the 3 screenshots showing stages of your work in process with submission.",
+      "type": "online",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1BkCbkR9TZbyjDzrlItjLJuesXqu2usfk/edit"
+    },
+    {
+      "id": 5009,
+      "Title": "Interactive Session",
+      "genre": "Outreach",
+      "guest": "Rohit Mavle",
+      "description": "A multifaceted creator, Rohit Mavle started as an actor, following a diploma in Film Acting post-engineering. Now, he's a popular Instagram figure, merging his love for acting, food, and travel into captivating content.",
+      "type": "offline",
+      "price": 0,
+      "specific": "workshop",
+      "link": "https://docs.google.com/document/d/1ItYviZS1oCYNqIT79xAaAfBod7LXjgdK/edit"
+    }
+]

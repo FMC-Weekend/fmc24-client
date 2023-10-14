@@ -1,22 +1,78 @@
-import Skeleton from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
 import React from "react";
+import { motion } from "framer-motion";
 
+const loadingContainer = {
+  width: "16rem",
+  height: "16rem",
+  display: "flex",
+  justifyContent: "space-around",
+};
+const loadingCircle = {
+  display: "block",
+  width: "4rem",
+  height: "4rem",
+  backgroundColor: "#ffffff",
+  borderRadius: "2rem",
+};
 
-const loading = () => {
-    return (
+const loadingContainerVariants = {
+  start: {
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+  end: {
+    transition: {
+      staggerChildren: 0.2,
+    },
+  },
+};
 
-        <>
-            <div className="loader-container" >
-                <div className="loader"></div>
-                <div className="loading-text">Loading...</div>
-                <Skeleton />
-                <Skeleton count={10} />
-
-            </div>
-        </>
-
-    )
+const loadingCircleVariants = {
+  start: {
+    y: "0%",
+  },
+  end: {
+    y: "60%",
+  },
+};
+const loadingCircleTransition = {
+  duration : 1,
+  repeat : Infinity,
+  yoyo: Infinity,
+  ease: 'easeInOut'
 }
 
-export default loading
+const loading = () => {
+  return (
+    <div>
+      <div className="fixed  w-full min-h-screen z-50 bg-black opacity-30" />
+      <div className="flex fixed w-full justify-center items-center h-screen">
+        <motion.div
+          style={loadingContainer}
+          variants={loadingContainerVariants}
+          initial="start"
+          animate="end"
+        >
+          <motion.span
+            style={loadingCircle}
+            variants={loadingCircleVariants}
+            transition={loadingCircleTransition}
+          ></motion.span>
+          <motion.span
+            style={loadingCircle}
+            variants={loadingCircleVariants}
+            transition={loadingCircleTransition}
+          ></motion.span>
+          <motion.span
+            style={loadingCircle}
+            variants={loadingCircleVariants}
+            transition={loadingCircleTransition}
+          ></motion.span>
+        </motion.div>
+      </div>
+    </div>
+  );
+};
+
+export default loading;
