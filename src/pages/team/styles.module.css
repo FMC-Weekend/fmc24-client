@@ -1,0 +1,10 @@
+
+@media(max-width:770px) and(min-width:500px){
+    .margin{
+        margin-left: 100px;
+    }
+}
+
+.margin1{
+    margin-left: 100px;
+}

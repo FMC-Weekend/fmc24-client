@@ -37,24 +37,24 @@ const IndexLanding = () => {
     setIsShown2((current) => !current);
   };
 
-  const showButton = () => {
-    if (window.innerWidth > 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-  useEffect(()=>{
-    if(sessionStorage.getItem('isNewUser')!==null){
-      if(sessionStorage.getItem('isNewUser')=="true"){
-        setRegister(true);
-      }
-      if(sessionStorage.getItem('isNewUser')=="false"){
-        setDashboard(true);
-      }
+  // const showButton = () => {
+  //   if (window.innerWidth > 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
+  // useEffect(()=>{
+  //   if(sessionStorage.getItem('isNewUser')!==null){
+  //     if(sessionStorage.getItem('isNewUser')=="true"){
+  //       setRegister(true);
+  //     }
+  //     if(sessionStorage.getItem('isNewUser')=="false"){
+  //       setDashboard(true);
+  //     }
       
-    }
-  },[]);
+  //   }
+  // },[]);
   const ref_container = useRef();
   // useEffect(() => {
   //   const scrollDiv = document.getElementById('header').offsetTop;
@@ -69,8 +69,8 @@ const IndexLanding = () => {
     return (
       <>
       <Header/>
-      {dashboard?<button href="/dashboard">Dashboard</button>:<></>}
-      {register?<button href="/register">Register</button>:<></>}
+      {/* {dashboard?<button style={{'zIndex':'100'}} href="/dashboard">Dashboard</button>:<></>}
+      {register?<button style={{'zIndex':'100'}} href="/register">Register</button>:<></>} */}
       <Hero/>
       <AboutUs/>
       <AwardSection/>

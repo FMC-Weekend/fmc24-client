@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
 .headerimg img{
     display:flex;
     width:100%;
@@ -28,9 +32,11 @@
     flex-direction: column;
     width:46vw;
     position:relative;
-    right:-80px;
+    right:-30px;
     top:50px;
     color:white;
+    font-family: 'Open Sans',serif;
+
 }
 .imgdiv1{
     display: flex;
@@ -52,7 +58,8 @@
 
 .div1in h1{
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 900;
+        letter-spacing: normal;
     margin-top: 20px;
     margin-left: 1.33vw;
 
@@ -85,6 +92,8 @@
     right:-100px;
     top:120px;
     color:white;
+    font-family: 'Open Sans',serif;
+
 }
 .imgdiv2{
     display: flex;
@@ -106,7 +115,8 @@
 
 .div2in h1{
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 900;
+        letter-spacing: normal;
     margin-top: 20px;
     margin-left: 1.33vw;
 }
@@ -139,9 +149,11 @@
     flex-direction: column;
     width:46vw;
     position:relative;
-    right:-50px;
+    
     top:50px;
     color:white;
+    font-family: 'Open Sans',serif;
+
 }
 .imgdiv3{
     display: flex;
@@ -161,12 +173,15 @@
      object-fit: cover;
 }
 .div3in h1{
+    font-family: 'Open Sans',serif;
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 900;
+    letter-spacing: normal;
     margin-top: 20px;
     margin-left: 1.33vw;
 }
 .div3in p{
+    font-family: 'Open Sans',serif;
     margin-top: 20px;
     text-align: justify;
     margin-left: 1.33vw;
@@ -197,6 +212,8 @@
     right:-100px;
     top:120px;
     color:white;
+    font-family: 'Open Sans',serif;
+
 }
 .imgdiv4{
     display: flex;
@@ -218,7 +235,8 @@
 
 .div4in h1{
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: 900;
+        letter-spacing: normal;
     margin-top: 20px;
     margin-left: 1.33vw;
 }
@@ -336,7 +354,7 @@
 
     }
     .div1in{
-        left:-33vw;
+        left:-37vw;
         width:80vw;
        
     }
@@ -357,7 +375,8 @@
 
     }
     .div2in{
-        right:-10vw;
+        margin-top: 100px;
+        right:-7vw;
         width:80vw;
        
     }
@@ -380,7 +399,8 @@
 
     }
     .div3in{
-        left:-36vw;
+        margin-top: 200px;
+        left:-40vw;
         width:80vw;
        
     }
@@ -401,8 +421,10 @@
 
     }
     .div4in{
-        right:-10vw;
+        margin-top: 230px;
+        right:-7vw;
         width:80vw;
+        margin-bottom: 300px;
        
     }
     .imgdiv4{
@@ -413,7 +435,7 @@
         font-size: 1.4rem;
     }
     .div4{
-        height:950px;
+        height:1300px;
     }
     
     

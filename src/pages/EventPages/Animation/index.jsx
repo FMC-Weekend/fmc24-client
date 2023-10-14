@@ -16,37 +16,41 @@ const Animation = () => {
 <div className={Classes.FullPage}>
         <Header/>
         <div>
-  <div className="mt-[100px] max-md:mt-[80px]"><h1 hidden>Hello</h1></div>
-  
+<div className="mt-[80px]"><h1 hidden>Hello</h1></div>
+<div className={Classes.showMobile}>
+    <div className="w-[300px]  h-[125px] flex justify-center items-center"> 
+        <Link href="../events"><button className={Classes.backButton}>Back</button></Link>
+         </div>
+</div>  
+  <div className={Classes.MainArea}>
     <div className={Classes.TopBar}>
        <div className={Classes.BarIn}>
-         <div className="w-[170px] max-md:w-full max-md:h-[70px] flex justify-center items-center glow-effect-blue"> 
-         <Link href="../EventPages/Photography" className="hover:text-[24px] hover:font-semibold transition-all duration-5000 ease-in-out">Photography</Link>
+        <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-blue"> 
+         <Link href="../EventPages/Photography" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Photography</Link>
          </div>
-         <div className="w-[160px] max-md:w-full max-md:h-[70px] flex justify-center items-center glow-effect-green">
-         <Link href="../EventPages/Design" className="hover:text-[24px] hover:font-semibold transition-all duration-5000 ease-in-out">Design</Link>
+         <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-green">
+         <Link href="../EventPages/Design" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Design</Link>
          </div>
-         <div className="w-[160px] max-md:w-full max-md:h-[70px] flex justify-center items-center glow-effect-red">
-         <Link href="../EventPages/Animation" className="hover:text-[24px] hover:font-semibold transition-all duration-5000 ease-in-out">Animation</Link>
+         <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-red">
+         <Link href="../EventPages/Animation" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Animation</Link>
          </div>
-         <div className="w-[190px] max-md:w-full max-md:h-[70px] flex justify-center items-center glow-effect-yellow">
-         <Link href="../EventPages/Cinematography" className="hover:text-[24px] hover:font-semibold transition-all duration-5000 ease-in-out">Cinematography</Link>
+         <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-yellow">
+         <Link href="../EventPages/Cinematography" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Cinematography</Link>
          </div>
-         <div className="w-[160px] max-md:w-full max-md:h-[70px] flex justify-center items-center glow-effect-orange">
-         <Link href="../EventPages/Media" className="hover:text-[24px] hover:font-semibold transition-all duration-5000 ease-in-out">Media</Link>
+         <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-orange">
+         <Link href="../EventPages/Media" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Media</Link>
          </div>
-         <div className="w-[160px] max-md:w-full max-md:h-[70px] flex justify-center items-center glow-effect-purple">
-         <Link href="../EventPages/Outreach" className="hover:text-[24px] hover:font-semibold transition-all duration-5000 ease-in-out">Outreach</Link> 
-         </div>
+         <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-purple">
+         <Link href="../EventPages/Outreach" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Outreach</Link> 
+         </div> 
              
            </div>
         </div> 
-        </div>
         <div className={Classes.MajorBod} >
 
 <div className={Classes.CardAn}>
   <div class="flex flex-col text-center justify-center align-middle px-6 py-4">
-  <div class=" flex flex-rows justify-center font-bold text-[23px] mb-2 my-3.5 max-md:text-[18px]"><div><Image className="icon" src={"/icon_anim.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">Capture The Imagination</div></div>
+  <div class=" flex flex-rows h-[40px] justify-center font-bold text-[23px] mb-2 my-3.5 max-md:text-[18px]"><div><Image className="icon" src={"/icon_anim.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">Capture The Imagination</div></div>
     <p class="text-justify my-3.5 h-[180px]">
     Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.
     </p>
@@ -59,7 +63,7 @@ const Animation = () => {
 
 <div className={Classes.CardAn}>
   <div class="flex flex-col text-center justify-center align-middle px-6 py-4">
-  <div class=" flex flex-rows justify-center font-bold text-3xl mb-2 my-3.5"><div><Image className="icon" src={"/icon_anim.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">Logomotion</div></div>
+  <div class=" flex flex-rows h-[40px] justify-center font-bold text-3xl mb-2 my-3.5"><div><Image className="icon" src={"/icon_anim.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">Logomotion</div></div>
     <p class="text-justify my-3.5 h-[180px]">
     Create an innovative 2D logo animation within specified duration, showcasing seamless motion, creative transitions, and a harmonious blend of visual elements. 
     </p>
@@ -72,7 +76,7 @@ const Animation = () => {
 
 <div className={Classes.CardAn}>
   <div class="flex flex-col text-center justify-center align-middle px-6 py-4">
-  <div class=" flex flex-rows justify-center font-bold text-3xl mb-2 my-3.5 max-md:text-[26px]"><div><Image className="icon" src={"/icon_anim.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">Realm of Wonders</div></div>
+  <div class=" flex flex-rows h-[40px] justify-center font-bold text-3xl mb-2 my-3.5 max-md:text-[26px]"><div><Image className="icon" src={"/icon_anim.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">Realm of Wonders</div></div>
     <p class="text-justify my-3.5 h-[180px]">
     Participants have to make the looping animation. The theme and elements of the animation will be anything of your choice. Also we will provide you raw/base animation.
     </p>
@@ -85,7 +89,7 @@ const Animation = () => {
 
 <div className={Classes.CardAn}>
   <div class="flex flex-col text-center justify-center align-middle px-6 py-4">
-  <div class=" flex flex-rows justify-center font-bold text-3xl mb-2 my-3.5"><div><Image className="icon" src={"/icon_anim.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">VFXorama</div></div>
+  <div class=" flex flex-rows h-[40px] justify-center font-bold text-3xl mb-2 my-3.5"><div><Image className="icon" src={"/icon_anim.png"} width={40} height={10} alt="cameras"/></div><div className="ml-4">VFXorama</div></div>
     <p class="text-justify my-3.5 h-[180px]">
     Participants have to create a VFX based video. The scene must be set in Varanasi with all elements having links to Varanasi.
     </p>
@@ -95,7 +99,8 @@ const Animation = () => {
     </div>
   </div>
 </div>
-
+</div>
+</div>
         </div>
         <Footer/>
     </div>

@@ -12,20 +12,22 @@ const LogIn = () => {
     const [clicked, setClicked] = React.useState(false);
     const { publicRuntimeConfig } = getConfig();
 
-
     const clientId = publicRuntimeConfig.GOOGLE_CLIENT_ID;
+    console.log("clientId : ",publicRuntimeConfig.GOOGLE_CLIENT_ID);
 
     const backendURL = publicRuntimeConfig.NEXT_PUBLIC_REACT_APP_BACKEND_URI;
     // console.log(backendURL)
 
 
-    console.log("backendURL : "+backendURL);
+    console.log("backendURL : " + backendURL);
 
     const handleFailure = (error) => {
         console.log("Authentication failed", error);
     };
 
     const handleLogin = async (credentialResponse) => {
+        sessionStorage.clear();
+        localStorage.clear();
         try {
             // console.log(credentialResponse.getBasicProfile)
             console.log("handleLogin invoked", credentialResponse);
@@ -38,26 +40,15 @@ const LogIn = () => {
             sessionStorage.setItem("img", data.picture)
             setClicked(true);
             console.log(credentialResponse.credential);
-            sessionStorage.setItem('token',credentialResponse.credential);
+            sessionStorage.setItem('token', credentialResponse.credential);
             const response = await axios.post(backendURL + "/api/google-login", {
                 token: credentialResponse.credential,
                 audience: clientId,
             });
             console.log("axios data", response);
-
-            // const response1 = await fetch(backendURL+"/api/google-login", {
-            //     method: 'POST',
-            //     headers: {
-            //         Authorization: `Bearer ${credentialResponse.credential}`,
-            //         'Content-Type': 'application/json',
-            //     },
-            //     body: JSON.stringify({  
-            //         token: credentialResponse.credential,
-            //         audience: clientId,
-            //     }),
-            // });
-            //    console.log("fetch",response1)
             if (response.status === 200) {
+
+
                 // const data = await response.data.json();
                 // console.log(data);
 
@@ -66,6 +57,7 @@ const LogIn = () => {
                 console.log(response)
                 console.log(response.data.message)
                 sessionStorage.setItem('isNewUser', isNewUser);
+                sessionStorage.setItem('isLoggedIn', true);
                 if (isNewUser) {
                     Router.push('/register');
                 } else {
@@ -123,8 +115,8 @@ const LogIn = () => {
                                             auto_select
                                             clientId={clientId}
                                             className={Classes.gButton}
-                                            >
-                                            
+                                        >
+
                                             {/* <BeatLoader size={15} color={'#123abc'} loading={true} /> */}
                                             {/*Loader action on onclick */}
 

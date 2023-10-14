@@ -48,6 +48,25 @@ const DashBoard = () => {
         setIsLoading(true);
 
         const fetchUserData = async () => {
+            const storedUserData = sessionStorage.getItem('userData');
+            if (storedUserData) {
+                const parsedUserData = JSON.parse(storedUserData);
+                const user = parsedUserData.user.userID || parsedUserData.user; // Adjust this based on your API response structure
+
+                setUserData({
+                    name: user.name,
+                    email: user.email,
+                    college: user.college,
+                    phone: user.number,
+                    year: user.yearOfStudy,
+                    instaHandle: user.instaHandle,
+                    userType: user.role,
+                    refCode: user.ref_code,
+                    timesReferred: user.norefcode,
+                });
+                setIsLoading(false);
+                return;
+            }
             try {
                 const res = await fetch(NEXT_PUBLIC_REACT_APP_BACKEND_URI + '/api/user', {
                     method: 'GET',
@@ -63,13 +82,17 @@ const DashBoard = () => {
 
                 const data = await res.json();
                 console.log(data)
+                sessionStorage.setItem('userData', JSON.stringify(data));
                 if (data && typeof data === 'object' &&
                     data.user && typeof data.user === 'object' &&
                     data.user.userID && typeof data.user.userID === 'object' &&
                     data.user.userID.userCart !== null) {
-
-
-                    const cartItems = data.user.userID.userCart.cartItems;
+                    let cartItems=[];
+                    try{
+                        cartItems = data.user.userID.userCart.cartItems;
+                    }catch(error){
+                        console.log("no cart items");
+                    }
                     const contestItems = new Set();
                     const workshopItems = new Set();
 

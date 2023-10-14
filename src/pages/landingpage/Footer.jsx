@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Classes from "./styles/Footer.module.css";
 import { ClassNames } from "@emotion/react";
 import Image from "next/image";
-import axios from "axios";
+// import axios from "axios";
 import getConfig from 'next/config';
 const Footer = () => {
   const [name, setName] = useState("");
@@ -10,13 +10,10 @@ const Footer = () => {
   const [message, setMessage] = useState("");
   const [isMobile, setIsMobile] = useState(false);
   const { publicRuntimeConfig } = getConfig();
-
-
   // const clientId = publicRuntimeConfig.GOOGLE_CLIENT_ID;
-
   const backendURL = publicRuntimeConfig.NEXT_PUBLIC_REACT_APP_BACKEND_URI;
   const contactUs = () => {
-    axios.post(backendURL + "/api/contact-us");
+    axios.post(backendURL+"/api/contact-us");
     alert("Thank you for contacting us. We will get back to you soon.")
   }
   useEffect(() => {
@@ -57,16 +54,15 @@ const Footer = () => {
       "email": email,
       "message": message
     });
-    axios.post(backendURL + "/api/contact-us", {
-      body: raw,
+    axios.post(backendURL+"/api/contact-us", {
+      "name": name,
+      "email": email,
+      "message": message
     });
     alert(`Thanks ${name}  for contacting us. We will get back to you soon.`)
     setName("");
     setEmail("");
     setMessage("");
-
-    // setTextt("");
-    // Add your form submission logic here
   };
   // const backgroundColor = isClicked
   //   ? "#A782FF"

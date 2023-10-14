@@ -29,6 +29,7 @@ const Register = () => {
   
   const handleSubmit = async(e)=>{
     e.preventDefault();
+    // console.log("e : ",e);
     let obj = {
       name: e.target[0].value,
       email: e.target[1].value,
@@ -39,7 +40,12 @@ const Register = () => {
       instaHandle: e.target[5].value,
       userType: e.target[6].value //insti user usertype 0
     };
-
+    if(e.target[1].value.endsWith('@itbhu.ac.in') || e.target[1].value.endsWith('@iitbhu.ac.in')){
+      obj.year=e.target[4].value;
+      obj.redeem=e.target[5].value;
+      obj.instaHandle=e.target[6].value;
+      obj.userType=e.target[7].value;
+    }
     try {
 
     const res = await fetch(process.env.NEXT_PUBLIC_REACT_APP_BACKEND_URI + '/api/user', {
@@ -56,6 +62,7 @@ const Register = () => {
     if (data.message === 'success') {
       sessionStorage.removeItem('isNewUser');
       sessionStorage.setItem('isNewUser',false);
+      sessionStorage.removeItem("userData")
       Router.push('/dashboard');
     } else {
       // alert('login failed, please try later');

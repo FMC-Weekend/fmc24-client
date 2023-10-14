@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1501,
+    "Title": "All Event Ticket",
+    "genre": "All Events",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1999,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1502,
+    "Title": "All Workshop Ticket",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 2099,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1503,
+    "Title": "All Fest Ticket",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 2499,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1510,
+    "Title": "All Genre Ticket - Photography",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1511,
+    "Title": "All Genre Ticket - Cinematography",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1512,
+    "Title": "All Genre Ticket - Media",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1513,
+    "Title": "All Genre Ticket - Animation",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1514,
+    "Title": "All Genre Ticket - Outreach",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  }
+]

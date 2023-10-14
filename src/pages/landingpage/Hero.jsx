@@ -35,13 +35,15 @@ const aboutusdivm = {
   marginTop: "20px",
   paddingBottom: "100px",
 };
-  const VideoWithText = () => {
-  const [isMobile, setIsMobile] = useState("/herodesktop.mp4");
+
+const VideoWithText = () => {
+  const [isMobile, setIsMobile] = useState("https://res.cloudinary.com/dnmu26tku/video/upload/v1697042341/fmc/public/q87jwacn8qw3pbrrxdhj.mp4");
+
 
   useEffect(() => {
     const checkIsMobile = () => {
-      if (window.innerWidth <= 768) setIsMobile("/heromobile.mp4");
-      else if (window.innerWidth > 768) setIsMobile("/herodesktop.mp4");
+      if (window.innerWidth <= 768) setIsMobile("https://res.cloudinary.com/dnmu26tku/video/upload/v1697042341/fmc/public/q87jwacn8qw3pbrrxdhj.mp4");
+      else if (window.innerWidth > 768) setIsMobile("https://res.cloudinary.com/dnmu26tku/video/upload/v1697042326/fmc/public/dbe9j6ucksdr3ue9jxrc.mp4");
     };
     window.addEventListener("resize", checkIsMobile);
     checkIsMobile();
