@@ -1,31 +1,31 @@
 [
     {
-      "idx":14,
+      "idx":1,
       "question": "What are the nearest railway stations and airports to reach IIT BHU?",
       "answer":
         "BY AIR: The approachable airport to the city is Babatpur which is approximately 35 km away from BHU \n BY RAIL: Since Varanasi lies in the heartland of the North Indian plains, it is connected to major cities of India via rail. There are two railway stations in Varanasi, Varanasi Cantt. Rly. Station (Junction) and Mughalsarai Rly. Station.\nFrom Varanasi Cantt.Railway Station to BHU: BHU Campus is about 10 km. from Varanasi Cantt. Railway Station. Round-the-clock auto/Taxi services are available from Varanasi Cantt. Station to BHU (Lanka). The tentative charges are for reserve auto, Rs.120-150/-, shared auto Rs. 25/- to 35/- and for taxi, Rs. 300/- to 350/-\n Mughalsarai Railway Station to BHU: BHU Campus is about 20 km. from Mughalsarai Railway Station. Round the Clock auto/Taxi services are available from Mughal Sarai Rly. Station to BHU (Lanka). The tentative charges are for reserve auto INR 200/-, Shared auto Rs. 35/- and for taxi, INR 300/- to 350/-"
     },
     {
-      "idx":15,
+      "idx":2,
       "question": "What about the hospital facility",
       "answer":
         "BHU has a Student medical center for any emergency and having Sir Sunderlal Hospital in campus is very convenient for any medical emergency"
     },
   
     {
-      "idx":16,
+      "idx":3,
       "question": "How to find a way to any venue for the event?",
       "answer":
         "Contact the event coordinators for directions to the event or you can directly map provided with the Welcome kit for directions as they are pretty much accurate and easily accessible"
     },
     {
-      "idx":17,
+      "idx":4,
       "question": "Are there ATMs available inside?",
       "answer":
         "There are many ATMs on the campus and also have a SBI Branch inside the IIT BHU campus.Also, you can access the ATMs located in the Hyderabad Gate area which is very close to the campus"
     },
     {
-      "idx":18,
+      "idx":5,
       "question": "What food options are available during FMC Weekend?",
       "answer": "There will be a lot of options of food available during the fest in the form of food stalls which will be available near the event locations and also around the Rajputana Grounds."
     }

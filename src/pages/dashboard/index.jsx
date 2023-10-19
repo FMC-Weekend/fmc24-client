@@ -14,7 +14,6 @@ import WorkshopCard from './workshopCard/WorkshopCard';
 import Link from 'next/link';
 import { useAuth } from '../../context/auth';
 import jsonData from './combined_data.json';
-import { Usable } from 'react';
 const DashBoard = () => {
     const {state} = useAuth();
     const { isAuthenticated, user } = state;
@@ -295,37 +294,37 @@ const DashBoard = () => {
                                     </div>
                                 </div>
                             </div>
-<<<<<<< HEAD
-                            
-                            <div className=' text-3xl text-white font-mono font-semibold mt-4'>Registered Contests</div>
-=======
 
-                            <div className=' text-3xl text-white font-mono font-semibold mt-4'>Registered Events</div>
->>>>>>> 796c003253db4c44765fd21e66d1e9b09b4d4b3c
+                            <div className=' text-3xl text-white font-mono font-semibold mt-4'>Registered Contests</div>
                             <div className="flex flex-col flex-wrap md:flex-row justify-between p-10  text-[14px]">
 
 
                                 {
-                                    eventsList.map((events) => (
+                                    contests.map((contest) => (
                                         <ContestCard
-                                            title={events}
+                                            title={contest.title}
+                                            imageSrc={'/icon_photo.png'}
+                                            key={contest.id}
                                         />
                                     ))
                                 }
+{/* 
+
+                                <ContestCard title={'Contest name'} imageSrc={'/icon_photo.png'} /> */}
                                 <div class="w-[340px] h-[250px] justify-center my-6   hover:shadow-amber-100/20  transition-all border mx-2 border-white bg-gradient-to-t from-white/10 to-white/30 text-white rounded-[14px] bg-opacity-10 backdrop-blur-lg  shadow-xl drop-shadow-xl bg-blend-normal z-10 ">
                                     <div class="flex flex-col text-center justify-center align-middle px-6 py-4">
                                     <Link href="/cart"> 
                                         <div class=" flex flex-rows justify-around font-bold text-7xl text-black mb-2 my-5"><div>+</div></div>
                                        
                                         <p class=" my-3.5 h-[180px] text-2xl text-center">
-                                            Add more events
+                                            Add more contests
                                         </p>
                                         </Link>
 
                                     </div>
                                 </div>
                             </div>
-<<<<<<< HEAD
+
                             <div className=' text-3xl text-white font-bold  font-mono'>Registered Workshops</div>
                             <div className="flex flex-col flex-wrap md:flex-row justify-between p-10  text-[14px]">
                                 {
@@ -353,9 +352,7 @@ const DashBoard = () => {
                                     </div>
                                 </div>
                             </div>
-                            </div>
-=======
->>>>>>> 796c003253db4c44765fd21e66d1e9b09b4d4b3c
+
                         </div>
                         <Footer />
                     

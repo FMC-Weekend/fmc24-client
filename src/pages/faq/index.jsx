@@ -17,12 +17,12 @@ const divStyle = {
   };
 
 export default function Faq() {
-  const [active, setActive] = useState([false, false, false, false,false, false, false, false, false,false,false,false, false, false, false, false, false, false, false, false,false,false]);
+  const [active, setActive] = useState([false, false, false, false, false, false, false, false, false,false,false]);
   const isSomeActive = active.some((element) => element);
   const handleClick = () => {
     isSomeActive
-      ? setActive([false, false, false, false,false, false, false, false, false,false,false,false, false, false, false, false, false, false, false, false,false,false])
-      : setActive([true, true, true, true, true, true,true, true, true, true, true,true,true,true, true, true, true, true, true,true, true, true, true, true,true,true]);
+      ? setActive([false, false, false, false,false, false, false, false, false,false,false])
+      : setActive([true, true, true, true, true, true,true, true, true, true, true,true,true]);
   };
 
   return (

@@ -1,31 +1,31 @@
 [
     {
-      "idx":19,
+      "idx":1,
       "question": "When will the registration for accommodation start?",
       "answer":
         "The registration is ongoing on the website."
     },
     {
-      "idx":20,
+      "idx":2,
       "question": "Where will the accommodation be provided?",
       "answer":
         "Accommodation will be provided to boys and girls in well-secured complexes on the campus of IIT BHU."
     },
   
     {
-      "idx":21,
+      "idx":3,
       "question": "Does the accommodation fee include the food facility as well?",
       "answer":
         " Yes. The accommodation charges do include food. However, different paid food courts will be operational during FMC Weekend to cater to the food requirements."
     },
     {
-      "idx":22,
+      "idx":4,
       "question": "What is the procedure for the online payment of accommodation fees?",
       "answer":
         "it is live on the website."
     },
     {
-      "idx":23,
+      "idx":5,
       "question": "What is the procedure to be followed after we reach IIT BHU?",
       "answer": "You need to come to the Accommodation Desk, Students Activity Centre (SAC) along with your college identity card. You will be allotted your place to stay on campus and given a registration booklet. In the case of a big contingent, a contingent leader needs to present the ID cards of all the people in his contingent at the accommodation desk along with a list of all the people. Accommodation would be strictly on a shared basis"
     }
