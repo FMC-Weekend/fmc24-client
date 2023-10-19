@@ -300,57 +300,26 @@ const DashBoard = () => {
 
 
                                 {
-                                    contests.map((contest) => (
+                                    eventsList.map((events) => (
                                         <ContestCard
-                                            title={contest.title}
-                                            imageSrc={'/icon_photo.png'}
-                                            key={contest.id}
+                                            title={events}
                                         />
                                     ))
                                 }
-{/* 
-
-                                <ContestCard title={'Contest name'} imageSrc={'/icon_photo.png'} /> */}
                                 <div class="w-[340px] h-[250px] justify-center my-6   hover:shadow-amber-100/20  transition-all border mx-2 border-white bg-gradient-to-t from-white/10 to-white/30 text-white rounded-[14px] bg-opacity-10 backdrop-blur-lg  shadow-xl drop-shadow-xl bg-blend-normal z-10 ">
                                     <div class="flex flex-col text-center justify-center align-middle px-6 py-4">
                                     <Link href="/cart"> 
                                         <div class=" flex flex-rows justify-around font-bold text-7xl text-black mb-2 my-5"><div>+</div></div>
                                        
                                         <p class=" my-3.5 h-[180px] text-2xl text-center">
-                                            Add more contests
+                                            Add more events
                                         </p>
                                         </Link>
 
                                     </div>
                                 </div>
                             </div>
-                            <div className=' text-3xl text-white font-bold  font-mono'>Registered Workshops</div>
-                            <div className="flex flex-col flex-wrap md:flex-row justify-between p-10  text-[14px]">
-                                {
-                                    workshops.map((workshop) => (
-                                        <WorkshopCard
-                                            title={workshop.title}
-                                            imageSrc={'/workshop.png'}
-                                            key={workshop.id}
-                                        />
-                                    ))
 
-                                }
-{/* 
-                                <WorkshopCard title={'Workshop name'} imageSrc={'/workshop.png'} /> */}
-
-                                <div class="w-[340px] h-[250px] justify-center hover:shadow-amber-100/20 transition-all my-6 border mx-2 border-white bg-gradient-to-t from-white/10 to-white/30 text-white rounded-[14px] bg-opacity-10 backdrop-blur-lg  shadow-xl drop-shadow-xl bg-blend-normal z-10 ">
-                                    <div class="flex flex-col text-center justify-center align-middle px-6 py-4">
-                                    <Link href="/cart">
-                                        <div class=" flex flex-rows justify-around font-bold text-7xl text-black mb-2 my-5"><div>+</div></div>
-                                       
-                                        <p class=" my-3.5 h-[180px] text-2xl text-center">
-                                            Add more workshops
-                                        </p>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <Footer />
                     </div>
