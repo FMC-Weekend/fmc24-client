@@ -111,36 +111,44 @@ const Checkout = () => {
       });
     } catch (err) {
       console.log("submitted");
-      alert("Submitted we will update you soon");
+      // alert("Submitted we will update you soon");
       const useremail = sessionStorage.getItem('email');
       console.log(useremail)
 
 
       // add current cart to registered events
+      console.log(selectedItems)
+      console.log(JSON.stringify({
+        "email":useremail,
+        "appendToRegisteredEvents":selectedItems
+      }))
+      const response2=await fetch(backendURL+"/api/events/add",{
+        method:"POST",
+        headers: { 
+          'Content-Type':  
+              'application/json;charset=utf-8'
+      },
+        body:JSON.stringify({
+          "email":useremail,
+          "appendToRegisteredEvents":selectedItems
+        })
+      })
+      const data3=await response2.json();
+      console.log(data3);
 
-      // const response2=await fetch(backendURL+"/api/events/add",{
-      //   method:"POST",
-      //   body:{
-      //     email:useremail,
-      //     appendToRegisteredEvents:selectedItems
-      //   }
-      // })
-      // const data3=await response2.json();
-      // console.log(data3);
 
-
-      // const resp=await fetch(backendURL + "/api/carts", {
-      //     method: "DELETE",
-      //     headers: {
-      //       "Content-Type": "application/json",
-      //     },
-      //     body: JSON.stringify({
-      //       email: useremail,
-      //     }),
-      //   });
-      //   const data2 = await resp.json();
-      //   console.log(data2);
-      Router.push('/dashboard');
+      const resp=await fetch(backendURL + "/api/carts", {
+          method: "DELETE",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            email: useremail,
+          }),
+        });
+        const data2 = await resp.json();
+        console.log(data2);
+        Router.push('/dashboard');
     }
 
   };

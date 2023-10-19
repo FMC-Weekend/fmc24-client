@@ -37,3 +37,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # fmc24-client
+
+# Our Amazing Contributors ⭐
+
+<a href="https://github.com/FMC-Weekend/fmc24-client/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FMC-Weekend/fmc24-client" />
+</a>

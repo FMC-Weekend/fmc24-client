@@ -13,15 +13,48 @@ import ContestCard from './contestCard/ContestCard';
 import WorkshopCard from './workshopCard/WorkshopCard';
 import Link from 'next/link';
 import { useAuth } from '../../context/auth';
+import jsonData from './combined_data.json';
 const DashBoard = () => {
     const {state} = useAuth();
     const { isAuthenticated, user } = state;
     const { publicRuntimeConfig } = getConfig();
     const [profileImage, setProfileImage] = useState('');
     const NEXT_PUBLIC_REACT_APP_BACKEND_URI = publicRuntimeConfig.NEXT_PUBLIC_REACT_APP_BACKEND_URI;
+    const backendURL = publicRuntimeConfig.NEXT_PUBLIC_REACT_APP_BACKEND_URI;
+
     const [isLoading, setIsLoading] = useState(false);
     const [contests, setContests] = useState([]);
     const [workshops, setWorkshops] = useState([]);
+    const [loaded,setLoaded]= useState(false);
+    // useEffect(()=>{
+    //     if(!loaded){
+    //     const getEvents= async ()=>{
+    //             const useremail=sessionStorage.getItem('email')
+    //             const response2=await fetch(backendURL+"/api/events",{
+    //                 method:"POST",
+    //                 headers: { 
+    //                     'Content-Type':  
+    //                     'application/json;charset=utf-8'
+    //                 },
+    //                 body:JSON.stringify({
+    //                     email:useremail
+    //                 })
+    //             })
+    //             const data2=await response2.json();
+    //             let events=data2.registeredEvents;
+    //             console.log(jsonData)
+    //             for(let x in jsonData){
+    //                 if(jsonData[x].id in events){
+    //                     console.log(jsonData[x].title)
+    //                 }
+    //             }
+                
+                
+    //         }
+    //             getEvents();
+    //             setLoaded(true);
+    //         }
+    // },[])
     const [userData, setUserData] = useState({
         name: 'John Doe',
         email: 'foo@foo.com',

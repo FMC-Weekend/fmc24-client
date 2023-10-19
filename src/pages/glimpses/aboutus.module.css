@@ -28,7 +28,7 @@
 }
 .div1{
     position: relative;
-    top:15vw; 
+    top:5vh; 
     height:1000px;
     width:100vw;
     display:flex;
@@ -89,6 +89,7 @@
     height:1200px;
     width:100vw;
     display:flex;
+    margin-top: 1rem;
 }
 .div2in{
     display:flex;
@@ -149,6 +150,7 @@
     height:1000px;
     width:100vw;
     display:flex;
+    margin-top: 1rem;
 }
 .div3in{
     display:flex;
@@ -209,6 +211,8 @@
     height:1200px;
     width:100vw;
     display:flex;
+    margin-bottom: 14vh;
+    margin-top: 1rem;
 }
 .div4in{
     display:flex;
@@ -380,6 +384,7 @@
         height:50vh;
         width:79.4vw;
         margin-top: 10vh;
+        
 
     }
     .div2in{
@@ -399,6 +404,8 @@
     }
     .div2{
         height:950px;
+        
+
     }
     
 

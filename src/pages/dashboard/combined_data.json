@@ -1,0 +1,435 @@
+[
+  {
+    "id": 101,
+    "Title": "Capture The Imagination",
+    "genre": "Animation",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 102,
+    "Title": "Logomotion",
+    "genre": "Animation",
+    "description": "Create an innovative 2D logo animation within specified duration, showcasing seamless motion, creative transitions, and a harmonious blend of visual elements.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1DsleK6oNGsqYIe1MoyPk50L8QHIDZ-2A/edit"
+  },
+  {
+    "id": 103,
+    "Title": "Realm of Wonders",
+    "genre": "Animation",
+    "description": "Participants have to make the looping animation. The theme and elements of the animation will be anything of your choice. Also we will provide you raw/base animation.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/103OMjJI1eIqRvpRo6qdjiN5RLEa1h0AY/edit"
+  },
+  {
+    "id": 104,
+    "Title": "VFXorama",
+    "genre": "Animation",
+    "description": "Participants have to create a VFX based video. The scene must be set in Varanasi with all elements having links to Varanasi.",
+    "type": "hybrid",
+    "price": 279,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1ameBkhRHltEwDVzqx_-vgFHQeRUYVtox/edit"
+  },
+  {
+    "id": 201,
+    "Title": "Director's Cut",
+    "genre": "Cine",
+    "description": "Participants of the event will be tasked with producing a short film within a tight deadline of 50 hours. The theme for their film will be unveiled at the start of the event, and all filming and production will be conducted on the campus.",
+    "type": "offline",
+    "price": 499,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1dQT-ollFDJt4ZcK_JiTEhWAqDWbKhJ05/edit"
+  },
+  {
+    "id": 202,
+    "Title": "Frame By Frame",
+    "genre": "Cine",
+    "description": "Frame by Frame is an Open-theme Online event, and stop-motion entries are to be submitted in due time. The participants need to create a stop-motion movie using only inanimate objects.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1Ok5ZLXcz2HVHTOESVQhu89y3B5uOD88h/edit"
+  },
+  {
+    "id": 203,
+    "Title": "Make it short",
+    "genre": "Cine",
+    "description": "Participants will be given different genres ,from which they will choose to make a video based on the clips given to them .The time duration of the video can be from 30-60 seconds.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1N37Ti5pcLWnhqWdg1fE4htoX3ifBch9u/edit"
+  },
+  {
+    "id": 204,
+    "Title": "That's How B-roll",
+    "genre": "Cine",
+    "description": "For this event, you've got to aim the lenses inwards and indulge in the mesmerizing beauty of life's precious moments; hence the theme - “Joy in Motion: Cinematic Vignettes of Life's Beauty”. Let each frame ignite your senses and remind you of the remarkable beauty that surrounds us all and make everyone and their friends turn their heads.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1fMeOUIcfBTNM4seOTyEnFiyx452ItjYJ/edit"
+  },
+
+  {
+    "id": 301,
+    "Title": "Design the Tunes",
+    "genre": "Design",
+    "description": "Its an Online design challenge to design the cover page of an English song or an English album.You can also use the elements of the songs or album for the cover. And the prior entries are also allowed. But also submit the 3 screenshot showing stages of your work in process with submission",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1BkCbkR9TZbyjDzrlItjLJuesXqu2usfk/edit"
+  },
+  {
+    "id": 302,
+    "Title": "Design-a-thon",
+    "genre": "Design",
+    "description": "This is a rebranding challenge, you'll have to rebrand an intriguing company using a different product line than the one it now uses. It will be a 24-hour offline event. It will be a Team event with 1-4 people in each team.",
+    "type": "offline",
+    "price": 499,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1ItYviZS1oCYNqIT79xAaAfBod7LXjgdK/edit"
+  },
+  {
+    "id": 303,
+    "Title": "Relnvent",
+    "genre": "Design",
+    "description": "Logos have always been an integral part of a brand's identity. The perfect blend of a minimal versatile and memorable design creates a great logo. The FMC Weckend brings you the opportunity to redesign a logo and create a fresh impression for a brand. The most original and creative design amongst all will be rewarded!",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/10yVwlvCNAlB3yvuT1aSKZeE5ZhIvh5CP/edit"
+  },
+  {
+    "id": 401,
+    "Title": "Infinite Tales",
+    "genre": "Media",
+    "description": "Participants have to come in pairs at the allotted location.They will be provided with the topics randomly These topics can range from an idea or words to an opening phrase.You will get a partner with whom you have to make the story on the basis of chit system.You and your partner have to complete the story by adding sentences alternatively.A twist in the middle of the story will be given by the judges to spice things up a bit.",
+    "type": "offline",
+    "price": 279,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1eQ0PQbnnHJlSJOVrpL2Gq0_08cMQ2hmn/edit"
+  },
+  {
+    "id": 402,
+    "Title": "Straight From Site",
+    "genre": "Media",
+    "description": "Whatever the news may be, wherever it may be, regardless of how harsh the circumstances might be, you can always count on a reporter to deliver the news to you in the comfort of your home. In this event, you will put yourself in the shoes of such on-site reporters. Analyse the scene, collect your thoughts and speak!",
+    "type": "offline",
+    "price": 279,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1QUJTU327wbVccSlwneJAxAYEkNpfby40/edit"
+  },
+
+  {
+    "id": 403,
+    "Title": "Laughing Gazette",
+    "genre": "Media",
+    "description": "Satarical approach to news reporting! An article will be given to every participants and they will have to make it funny.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": ""
+  },
+  {
+    "id": 404,
+    "Title": "Writer's Block",
+    "genre": "Media",
+    "description": "Embark on a thrilling journey of creativity in our script writing competition! Ignite your imagination and weave mesmerizing tales. Showcase your storytelling finesse and make your script come alive in this exhilarating challenge.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1FtkT0f_oZWWcve_BvN-Nd_XTynmXG9bY/edit"
+  },
+  {
+    "id": 501,
+    "Title": "AdMad",
+    "genre": "Outreach",
+    "description": "The participants need to make an advertisement on the provided, within 36 hrs. The themes for the same would be released at the start of theevent and participants need to submit their entries in due time.",
+    "type": "online",
+    "price": 499,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1bXvcypI65JJHu7yxva2a-POO6XUFGcfa/edit"
+  },
+  {
+    "id": 502,
+    "Title": "Documentary",
+    "genre": "Outreach",
+    "description": "Step into the world of storytelling through lenses and frames, where truth meets creativity, and reality is transformed into compelling narratives. Join us for 'Capturing Reality: The Art of Documentary Filmmaking,' a captivating and enlightening documentary-making event that dives deep into the fascinating realm of non-fiction storytelling. Participants are required to prepare a documentary film on any topic about any genre (expository, observatory, participative, reflexive, dramatic, etc.)",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1-JTd2yaNu0E32Cb8AUZnXsWsghbltlCY/edit"
+  },
+  {
+    "id": 503,
+    "Title": "Rant it",
+    "genre": "Outreach",
+    "description": "You will have to give a live solo open-mic performance of your rant. It could be a monologue, an interview, a prank or anything else that can captivate the interest of the public",
+    "type": "offline",
+    "price": 279,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/18S9lGeLBacvsHgW-lVbRaI0qUFmTnI2w/edit"
+  },
+  {
+    "id": 504,
+    "Title": "Vlogoholic",
+    "genre": "Outreach",
+    "description": "You have to make a video log in the range of 60-600 seconds. It can be about anything- visiting nearby attractions, indulging in festive activities,pulling pranks on people, etc. - as long as it is exciting and in which you can show the theme “COLOUR OF MY CITY”.",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1gsoFJ1Mcr0h9u9rb5Fh7pLbIHcRsEz0V/edit"
+  },
+  {
+    "id": 601,
+    "Title": "Infocus",
+    "genre": "Photography",
+    "description": "Embrace the essence of creativity and composition as the pivotal criteria for your submissions. Your artwork should resonate with one of the following themes, and winners will be recognized separately for each theme:1. Long Exposure 2. Minimal 3. Culture of India  4. Monochrome",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1vcr5S8LJ93sz6CXU0mPXNJD7Kz43opuy/edit"
+  },
+  {
+    "id": 602,
+    "Title": "Instameet",
+    "genre": "Photography",
+    "description": "This is an offline theme based Photographyraphy event.This event bears the challenge to capture the beauty of Varanasi, its lifestyle, communities, cultures, rituals, and religion. A photowalk will be organized during which you will have to click the pictures for the event submission.",
+    "type": "offline",
+    "price": 279,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1HeSmxdH4E1t62GQN7YvujyaU92_s_fWd/edit"
+  },
+  {
+    "id": 603,
+    "Title": "PhotoArt",
+    "genre": "Photography",
+    "description": "This is what Manipulation means, so let s dive into this imaginary world and paint the canvas with our  imagination. Themes on which the event will take place are given below: Post Apocalypse, Wildlife, Retro Futurism, Surrealism",
+    "type": "online",
+    "price": 199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1b3e0yqzJpDQryrPOvTgc9klZ2W0hYHuF/edit"
+  },
+  {
+    "id": 604,
+    "Title": "Portfolio in 24 Hours",
+    "genre": "Photography",
+    "description": "We click a number of pictures and put them in the gallery, but  Portfolio in 24 hrs of FMC Weekend brings you a chance to show your skills on India s largest digital art festival.",
+    "type": "offline",
+    "price": 279,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/14D5ttxIzebBpTaHRSNJiZIkWUoDHhOh4/edit"
+  },
+  {
+    "id": 605,
+    "Title": "Snapchase",
+    "genre": "Photography",
+    "description": "Snapchase is a treasure hunt where you have to take pictures of a special place by solving clues and riddles and submit them before time runs out.",
+    "type": "offline",
+    "price": 279,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1WmopoLxbYfVfRCsq_g1_oHEh_UV_ZAwh/edit"
+  },
+  {
+    "id": 1001,
+    "Title": "Accomodation",
+    "genre": "",
+    "description": "Fixed Price for Accomodation for offline participants.",
+    "type": "offline",
+    "price": 1000,
+    "specific": "accomodation",
+    "link": "https://docs.google.com/document/d/1WmopoLxbYfVfRCsq_g1_oHEh_UV_ZAwh/edit"
+  },
+  {
+    "id": 1501,
+    "Title": "All Event Ticket",
+    "genre": "All Events",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1999,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1502,
+    "Title": "All Workshop Ticket",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 2099,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1503,
+    "Title": "All Fest Ticket",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 2499,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1510,
+    "Title": "All Genre Ticket - Photography",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1511,
+    "Title": "All Genre Ticket - Cinematography",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1512,
+    "Title": "All Genre Ticket - Media",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1513,
+    "Title": "All Genre Ticket - Animation",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1514,
+    "Title": "All Genre Ticket - Outreach",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1601,
+    "Title": "All Event Ticket",
+    "genre": "All Events",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1199,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1602,
+    "Title": "All Workshop Ticket",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1299,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1603,
+    "Title": "All Fest Ticket",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1599,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1610,
+    "Title": "All Genre Ticket - Photography",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 999,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1611,
+    "Title": "All Genre Ticket - Cinematography",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 999,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1612,
+    "Title": "All Genre Ticket - Media",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 999,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1613,
+    "Title": "All Genre Ticket - Animation",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 999,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1614,
+    "Title": "All Genre Ticket - Outreach",
+    "genre": "All Workshop",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 999,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1701,
+    "Title": "Any 6 Ticket",
+    "genre": "All Random",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1799,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  },
+  {
+    "id": 1702,
+    "Title": "Any 4 Ticket",
+    "genre": "All Random",
+    "description": "Experience the boundless realm of 3D artistry! Create a captivating and immersive scene with no limitations on theme or subject matter. However, remember that in the end, a single image will be your masterpiece, the culmination of your creative process.",
+    "type": "offline",
+    "price": 1499,
+    "specific": "event",
+    "link": "https://docs.google.com/document/d/1JJ8oH5yWRkSVhM7XflBZvBjl-iiiyJLz/edit"
+  }
+
+]
