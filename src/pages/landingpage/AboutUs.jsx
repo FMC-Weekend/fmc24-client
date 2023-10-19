@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from "framer-motion"
 
 const AboutUs = () => {
   const text1 =
@@ -42,7 +43,13 @@ const AboutUs = () => {
         </>
       ) : (
         <>
-          <div className="h-426">
+          <motion.div 
+           initial={{ opacity: 0, transform:2 }}
+           whileInView={{ opacity: 1,translate:2 }}
+          
+           
+          
+          className="h-426">
 
 
 
@@ -60,7 +67,7 @@ const AboutUs = () => {
                 <button className="border-solid border-2 ml-24 mt-6 text-white rounded-3xl h-10 w-36 text-xl transition duration-300 transform  hover:shadow-xl hover:text-blue-950 bg-transparent hover:bg-white">{text3}</button>
               </Link>
             </div>
-          </div>
+          </motion.div>
         </>
       )}
     </>

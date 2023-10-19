@@ -62,7 +62,7 @@ const Register = () => {
     //     setFt(false);
     //   }, 3000);
     // }
-    // document.getElementById("submitButton").disabled=true;
+    document.getElementById("submitButton").disabled=true;
 
     // console.log("e : ",e);
     let obj = {

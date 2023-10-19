@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import Classes from "./styles/Guests.module.css";
 import Link from "next/link";
+import { motion } from "framer-motion"
 import Image from "next/image";
 const textStyleBold = {
   textAlign: "center",
@@ -333,7 +334,10 @@ const Guests = ({ imageSrc }) => {
           </center>
           <section className={Classes.sponsor} id="sponsors">
             <Container>
-              <div className={Classes.sponsor_bx}>
+              <motion.div 
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              className={Classes.sponsor_bx}>
                 <h2 className={Classes.heading} style={{ fontSize: "32px" }}>
                   Our Previous Guests
                 </h2>
@@ -533,7 +537,7 @@ const Guests = ({ imageSrc }) => {
                     {text5}
                   </button>
                 </Link>
-              </div>
+              </motion.div>
             </Container>
           </section>
         </>

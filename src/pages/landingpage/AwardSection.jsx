@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 // import Classes from "./styles/awardSection.module.css";
+import { inView } from "framer-motion"
 import Marquee from "react-fast-marquee";
+import { motion } from "framer-motion";
 import {} from "@next/font/google";
 const textStyleBold = {
   textAlign: "center",
@@ -144,7 +146,10 @@ const AwardSection = () => {
         </>
       ) : (
         <>
-          <div style={topSectionPadding}>
+          <motion.div 
+          initial={{ opacity: 0, transform:3 }}
+          whileInView={{ opacity: 1,translate:1 ,transform:1}}
+          style={topSectionPadding}>
             <center>
               <div style={bottomPadding}>
                 <Marquee gradient={false} speed={50}>
@@ -181,6 +186,7 @@ const AwardSection = () => {
                 </center>
               </div>
               <br />
+             
               <Image
                 src="/Frame29.svg"
                 alt="frame29"
@@ -189,7 +195,7 @@ const AwardSection = () => {
                 style={{}}
               />
             </center>
-          </div>
+          </motion.div>
         </>
       )}
     </>

@@ -7,6 +7,8 @@ import Image from "next/image"
 import Design from "./hoverDesign/design";
 import Header from "./Header";
 import Marquee from "react-fast-marquee";
+import { motion } from "framer-motion"
+
 const strokeTextStyle = {
   fontFamily: "'Work Sans', sans-serif",
   fontSize: "36px",
@@ -94,7 +96,11 @@ const Hero = () => {
         <Header/>
         <VideoWithText />
       </div> */}
-         <div className={Classes.outermaind}>
+         <motion.div 
+         className={Classes.outermaind }
+         initial={{ opacity: 0 }}
+         whileInView={{ opacity: 1 }}
+         >
      <div className={Classes.innerdiv1}>
      <Image src="/FMCswa-02 (1) 1.png" height={200} width={480} alt="logo"/>
      <div className={Classes.content}>
@@ -116,7 +122,7 @@ const Hero = () => {
       <Image  className={Classes.img2} src="/endgraffhigh.png" width={820} height={100} alt="img2" />
      </div>
     
-     </div>
+     </motion.div>
      <VideoWithText />
 
     </>

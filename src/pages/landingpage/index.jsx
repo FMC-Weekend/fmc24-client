@@ -15,6 +15,7 @@ import Header from "./Header"
 import Footer from "./Footer"
 import AboutUs from "./AboutUs"
 import Hero from "./Hero"
+import { motion, useScroll } from "framer-motion"
 // import OAT from "./OAT"
 // import Testimonials from "./Testimonials"
 import Competitions from "./Competitions"
@@ -37,7 +38,7 @@ const IndexLanding = () => {
   const modalState2 = () => {
     setIsShown2((current) => !current);
   };
-
+  const { scrollYProgress } = useScroll();
 
   // const showButton = () => {
   //   if (window.innerWidth > 960) {
@@ -58,6 +59,7 @@ const IndexLanding = () => {
   //   }
   // },[]);
   const ref_container = useRef();
+  const scrollRef = useRef(null)
   // useEffect(() => {
   //   const scrollDiv = document.getElementById('header').offsetTop;
   //   window.scrollTo({ top: scrollDiv - 200, behavior: 'smooth' });
@@ -73,15 +75,30 @@ const IndexLanding = () => {
       <Header />
       {/* {dashboard?<button style={{'zIndex':'100'}} href="/dashboard">Dashboard</button>:<></>}
       {register?<button style={{'zIndex':'100'}} href="/register">Register</button>:<></>} */}
+     <motion.div
+       initial={{ opacity: 0 }}
+       whileInView={{ opacity: 1 }}
+       viewport={{ root: scrollRef }}
+      >
       <Hero />
+     </motion.div>
+     
+     
       <AboutUs />
+      <motion.div
+       initial={{ opacity: 0 }}
+       whileInView={{ opacity: 1 }}
+       viewport={{ root: scrollRef }}
+      >
       <AwardSection />
+      </motion.div>
       <Guests />
       {/* <Demo/> */}
       {/* <Competitions/> */}
       {/* <OAT /> */}
       {/* <Testimonials/> */}
       <Sponsors />
+    
 
       <Footer />
     </>
