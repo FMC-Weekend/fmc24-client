@@ -6,6 +6,7 @@ export default function handler(req, res) {
   // const { name, email, message } = req.body;
   console.log(req.body)
   const products = req.body.items;
+  console.log(products)
   const name =req.body.name;
   const email = req.body.email;
   const total=req.body.total;
@@ -463,19 +464,13 @@ export default function handler(req, res) {
           <![endif]-->
           </head>
           <body>
-            <span class="preheader">This is a receipt for your recent purchase on {{ purchase_date }}. No payment is due with this receipt.</span>
+         
             <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0" role="presentation">
               <tr>
                 <td align="center">
                   <table class="email-content" width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                    <tr>
-                      <td class="email-masthead">
-                        <a href="https://example.com" class="f-fallback email-masthead_name">
-                        FMC WEEKEND
-                      </a>
-                      </td>
-                    </tr>
-                    <!-- Email Body -->
+                   
+                    
                     <tr>
                       <td class="email-body" width="570" cellpadding="0" cellspacing="0">
                         <table class="email-body_inner" align="center" width="570" cellpadding="0" cellspacing="0" role="presentation">
@@ -484,90 +479,20 @@ export default function handler(req, res) {
                             <td class="content-cell">
                               <div class="f-fallback">
                                 <h1>Hi ${name},</h1>
+                                <p>We hope this message finds you well. We are thrilled to have you as a part of the FMC Weekend, and we look forward to welcoming you to our exciting event.</p>
                                 <p>Thanks for purchasing ${products}. This email is the receipt for your purchase</p>
-                                <p>This purchase will appear as “[Credit Card Statement Name]” on your credit card statement for your {{credit_card_brand}} ending in {{credit_card_last_four}}. Need to <a href="{{billing_url}}">update your payment information</a>?</p>
+
+                                <h3> Order Summary</h3>
+
+                                <h3>Order Total :  ${total}</h3>
+                                 
                                 <!-- Discount 
-                                <table class="discount" align="center" width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                  <tr>
-                                    <td align="center">
-                                      <h1 class="f-fallback discount_heading">10% off your next purchase!</h1>
-                                      <p class="f-fallback discount_body">Thanks for your support! Here's a coupon for 10% off your next purchase if used by {{expiration_date}}.</p>
-                                      <!-- Border based button
-                   https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design -->
-                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
-                                        <tr>
-                                          <td align="center">
-                                            <a href="http://example.com" class="f-fallback button button--green" target="_blank">Use this discount now...</a>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table> -->
-                                <table class="purchase" width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                  <tr>
-                                    <td>
-                                      <h3>{{receipt_id}}</h3></td>
-                                    <td>
-                                      <h3 class="align-right">{{date}}</h3></td>
-                                  </tr>
-                                  <tr>
-                                    <td colspan="2">
-                                      <table class="purchase_content" width="100%" cellpadding="0" cellspacing="0">
-                                        <tr>
-                                          <th class="purchase_heading" align="left">
-                                            <p class="f-fallback">Description</p>
-                                          </th>
-                                          <th class="purchase_heading" align="right">
-                                            <p class="f-fallback">Amount</p>
-                                          </th>
-                                        </tr>
-                                        {{#each receipt_details}}
-                                        <tr>
-                                          <td width="80%" class="purchase_item"><span class="f-fallback">{{description}}</span></td>
-                                          <td class="align-right" width="20%" class="purchase_item"><span class="f-fallback">{{amount}}</span></td>
-                                        </tr>
-                                        {{/each}}
-                                        <tr>
-                                          <td width="80%" class="purchase_footer" valign="middle">
-                                            <p class="f-fallback purchase_total purchase_total--label">Total</p>
-                                          </td>
-                                          <td width="20%" class="purchase_footer" valign="middle">
-                                            <p class="f-fallback purchase_total">{{total}}</p>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-                                <p>If you have any questions about this receipt, simply reply to this email or reach out to our <a href="{{support_url}}">support team</a> for help.</p>
-                                <p>Cheers,
-                                  <br>The [Product Name] team</p>
-                                <!-- Action -->
-                                <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0" role="presentation">
-                                  <tr>
-                                    <td align="center">
-                                      <!-- Border based button
-                   https://litmus.com/blog/a-guide-to-bulletproof-buttons-in-email-design -->
-                                      <table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
-                                        <tr>
-                                          <td align="center">
-                                            <a href="{{action_url}}" class="f-fallback button button--blue" target="_blank">Download as PDF</a>
-                                          </td>
-                                        </tr>
-                                      </table>
-                                    </td>
-                                  </tr>
-                                </table>
-                                <!-- Sub copy -->
-                                <table class="body-sub" role="presentation">
-                                  <tr>
-                                    <td>
-                                      <p class="f-fallback sub"><strong>Need a printable copy for your records?</strong> You can <a href="{{action_url}}">download a PDF version</a>.</p>
-                                      <p class="f-fallback sub">Moved recently? Have a new credit card? You can easily <a href="{{billing_url}}">update your billing information</a>.</p>
-                                    </td>
-                                  </tr>
-                                </table>
+                                
+                               
+                               
+                               
+                                
+                                
                               </div>
                             </td>
                           </tr>
@@ -576,6 +501,7 @@ export default function handler(req, res) {
                     </tr>
                     <tr>
                       <td>
+                      <p>Thank you for choosing to be a part of our event. Your presence means the world to us, and we can't wait to share this memorable experience with you.</p>
                         <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0" role="presentation">
                           <tr>
                             <td class="content-cell" align="center">
