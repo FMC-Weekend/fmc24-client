@@ -254,7 +254,7 @@ const DashBoard = () => {
                                     </div>
                                 </div>
                             </div>
-
+                            
                             <div className=' text-3xl text-white font-mono font-semibold mt-4'>Registered Contests</div>
                             <div className="flex flex-col flex-wrap md:flex-row justify-between p-10  text-[14px]">
 
@@ -311,9 +311,10 @@ const DashBoard = () => {
                                     </div>
                                 </div>
                             </div>
+                            </div>
                         </div>
                         <Footer />
-                    </div>
+                    
 
                 </>
             )}
