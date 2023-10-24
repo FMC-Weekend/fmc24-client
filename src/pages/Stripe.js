@@ -25,6 +25,8 @@ const session = await stripe.checkout.sessions.create({
 
 // redirect user to session.url to do payment
 
+
+
 // Session Response => 
 // {
 //   "id": "cs_test_a15zG7PORjjRzbIqY2NR9fUeZJmU1lbKZ8rJw8sNsyL0yjiksHxXYP1Gj1",
