@@ -107,7 +107,7 @@ const Index = () => {
                 Ankur Debnath, a.k.a. Doodlenath, is a versatile Kolkata-based Illustrator and Doodle Artist. His creative prowess spans Doodle art, Caricature Illustrations, and Concept Art. With a quest for self-improvement and an innate ability to experiment, Ankur forges a path toward his imaginative dreams through art.
                 </p>
 
-                <div className="my-8 align-middle justify-evenly">
+                <div className="my-4 align-middle justify-evenly">
                   {isLoggedin ? (
                     <a>
                       <Link href="../cart">

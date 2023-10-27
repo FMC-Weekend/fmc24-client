@@ -46,8 +46,13 @@ const Index = () => {
                 </Link>
               </div>
               <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-green">
-             <Link href="../WorkshopPages/Design" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Design</Link>
-             </div>
+                <Link
+                  href="../WorkshopPages/Design"
+                  className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out"
+                >
+                  Design
+                </Link>
+              </div>
               <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-red">
                 <Link
                   href="../WorkshopPages/Animation"
@@ -65,41 +70,51 @@ const Index = () => {
                 </Link>
               </div>
               <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-orange">
-             <Link href="../WorkshopPages/Media" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Media</Link>
-             </div>
+                <Link
+                  href="../WorkshopPages/Media"
+                  className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out"
+                >
+                  Media
+                </Link>
+              </div>
               <div className="w-[275px]  h-[125px] flex justify-center items-center glow-effect-purple">
-             <Link href="../WorkshopPages/Outreach" className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out">Outreach</Link> 
-             </div>
+                <Link
+                  href="../WorkshopPages/Outreach"
+                  className="text-[20px] hover:text-[36px] hover:font-semibold transition-all duration-5000 ease-in-out"
+                >
+                  Outreach
+                </Link>
+              </div>
             </div>
           </div>
           <div className={Classes.MajorBod}>
             <div className={Classes.CardPh}>
-              <div class="flex flex-col text-center justify-center items-center ">
+              <div class="flex flex-col text-center justify-center items-center  ">
                 <Image
                   src={"/Subhash.png"}
                   width={387}
-                  height={300}
-                  className="rounded-tr-[25px] rounded-tl-[25px]"
+                  height={350}
                   alt="null"
+                  className="rounded-tr-[25px] rounded-tl-[25px]"
                 ></Image>
-                <div class=" flex flex-rows h-[30px] justify-center font-bold text-3xl">
-                  <div className="ml-4 mt-5 font-bold text-[30px] p-[10px]">
-                    Wildlife Photography
+                <div className=" flex flex-rows h-[30px] justify-center font-bold text-3xl">
+                  <div className="ml-4  font-bold text-[30px] p-[10px]">
+                  Wildlife Photography
                   </div>
                 </div>
                 <a
                   href="https://www.instagram.com/itsmesubhash/"
-                  className="text-black mt-10 italic hover:underline text-[20px]  px-10 p-1  "
+                  className="text-black mt-5 italic hover:underline text-[20px]  px-10 p-1 "
                 >
-                  -by Subhash Nair
+                   -by Subhash Nair
                 </a>
-                <p class="text-justify mx-2 w-[290px] mt-10">
-                  Subhash Nair, a renowned wildlife photographer and avid
+                <p className="text-justify mx-2 mt-3 w-[310px]">
+                Subhash Nair, a renowned wildlife photographer and avid
                   traveler, captures the beauty of the natural world. He is a
-                  brand ambassador for Nikon India,framing breathtaking moments.
+                  brand ambassador for Nikon India, framing breathtaking moments.
                 </p>
 
-                <div className="my-8 align-middle justify-evenly">
+                <div className="my-4 align-middle justify-evenly">
                   {isLoggedin ? (
                     <a>
                       <Link href="../cart">
@@ -120,17 +135,16 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            
             <div className={Classes.CardPh}>
               <div class="flex flex-col text-center justify-center items-center  ">
                 <Image
                   src={"/Satyam.jpg"}
                   width={387}
-                  height={300}
-                  className="rounded-tr-[25px] rounded-tl-[25px]"
+                  height={350}
                   alt="null"
+                  className="rounded-tr-[25px] rounded-tl-[25px]"
                 ></Image>
-                <div class=" flex flex-rows h-[30px] justify-center font-bold text-3xl">
+                <div className=" flex flex-rows h-[30px] justify-center font-bold text-3xl">
                   <div className="ml-4 mt-4 font-bold text-[30px] p-[10px]">
                   Instameet - Photowalk at Assi Ghat
                   </div>
@@ -141,14 +155,14 @@ const Index = () => {
                 >
                   -by Satyam Bhuyan
                 </a>
-                <p class="text-justify mx-2 w-[290px] mt-3">
-                  Satyam Bhuyan, a gifted photographer with an engineering and
+                <p className="text-justify mx-2 mt-3 w-[310px]">
+                Satyam Bhuyan, a gifted photographer with an engineering and
                   MBA background, creates visual masterpieces. As a Nikon India
                   and Lightroom Ambassador, he elevates travel photography and
                   NFT artistry to new heights.
                 </p>
 
-                <div className="my-6 align-middle justify-evenly ">
+                <div className="my-4 align-middle justify-evenly">
                   {isLoggedin ? (
                     <a>
                       <Link href="../cart">
@@ -169,20 +183,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            {/* <div className={Classes.CardPh}>
-      <div class="flex flex-col text-center justify-center items-center  ">
-        <Image src={"/Satyam.png"} width={387} height={350} className="rounded-tr-[25px] rounded-tl-[25px]" alt="null"></Image>
-        <div class=" flex flex-rows h-[30px] justify-center font-bold text-3xl"><div className="ml-4  mt-5 font-bold text-[30px] p-[10px]">Instameet & Adobe Lightroom</div></div>
-        <a href="https://www.instagram.com/i.satyam5/" className="text-black mt-14 italic hover:underline text-[20px]  px-10 p-1 ">-by Satyam Bhuyan</a>
-        <p class="text-justify mx-2 w-[290px] ">Satyam Bhuyan, a gifted photographer with an engineering and MBA background, creates visual masterpieces. As a Nikon India and Lightroom Ambassador, he elevates travel photography and NFT artistry to new heights.
-        </p>
-        
-        <div className="my-8 align-middle justify-evenly">\
-            <button className="border mb-10 px-6 py-2 border-black rounded-[20px] hover:text-[15px] hover:font-semibold transition-all duration-5000 ease-in-out text-black ">Checkout</button>
-        </div>
-      </div>
-    </div> */}
-
+            <div className={Classes.Ghost}></div>
             <div className={Classes.Ghost}></div>
           </div>
         </div>
