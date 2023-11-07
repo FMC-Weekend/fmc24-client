@@ -17,6 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
    
     <>
     <Head>
+      <meta name="google-site-verification" content="7_7hh2Lr3iCg5mgEIw_TWpF2F6n-OSPUWY05-ljte_U" />
     <title>FMC Weekend</title>
         <link rel='favicon' href='/favicon.ico' />
       </Head>
